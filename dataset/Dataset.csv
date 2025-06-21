@@ -1,0 +1,1547 @@
+User ID,Tasks,Task ID,Business Value,Urgency,Stakeholder Priority,Complexity,Effort Estimation,Rank,Priority Score
+US01,Process the deletions from 12-19-2017.,US01T1,5,4,5,2,2,1,6.2
+US01,Implement functionality to receive updates to FABS records.,US01T2,4,4,4,3,2,2,5.6
+US01,"Map and display office names derived from office codes.	",US01T3,3,2,3,2,1,4,3.7
+US01,Add functionality to access two additional fields from FPDS data,US01T4,4,3,4,3,2,3,5.2
+US02,Redesign the Resources page to match the new Broker design styles.,US02T1,4,3,4,2,3,6,5.1
+US02,Report to the Agencies about user testing contributions to UX.,US02T2,5,4,5,3,3,3,6.5
+US02,Proceed to round 2 of DABS or FABS landing page edits.,US02T3,4,4,4,3,2,4,5.6
+US02,Proceed to round 2 of Homepage edits.,US02T4,3,3,4,3,2,7,4.7
+US02,Proceed to round 3 of Help page edits.,US02T5,3,2,3,3,2,8,4
+US02,Schedule user testing to ensure tester buy-in.,US02T6,5,5,5,3,3,1,6.9
+US02,Begin user testing to validate stakeholder UI improvement requests.,US02T7,5,5,5,3,3,2,6.9
+US02,Track Tech Thursday issues for testing and fixes.,US02T8,4,4,4,3,2,5,5.6
+US03,Logging improvements,US03T1,5,4,4,3,3,10,6.2
+US03,Modify FABS submission (publishStatus),US03T2,5,5,5,3,4,2,7
+US03,Update Broker validation rule table,US03T3,4,3,4,4,3,15,5.5
+US03,Add GTAS window data to the database,US03T4,4,4,4,3,3,11,5.7
+US03,Cache D Files generation requests,US03T5,4,4,4,3,3,12,5.7
+US03,Prevent double publishing of FABS submissions,US03T6,5,5,5,3,3,4,6.9
+US03,Ensure non-existent records dont create new published data,US03T7,5,4,5,3,3,8,6.5
+US03,Clarify CFDA error code triggers,US03T8,4,3,4,2,2,16,5
+US03,Index domain models,US03T9,5,4,4,4,3,9,6.4
+US03,Load FREC derivations for USASpending.gov,US03T10,5,4,5,3,4,6,6.6
+US03,D Files generation and validation process,US03T11,4,4,4,3,3,13,5.7
+US03,Update FPDS loader to include historical data,US03T12,5,4,4,4,4,7,6.5
+US03,Remove FundingAgencyCode from FABS sample file,US03T13,4,3,3,2,2,17,4.7
+US03,Create FABS groups under FREC paradigm,US03T14,4,4,4,3,3,14,5.7
+US03,Quick access to Broker data for troubleshooting,US03T15,5,5,5,3,3,5,6.9
+US03,Load all historical FPDS data,US03T16,5,5,5,4,4,1,7.2
+US03,Prevent duplicate transactions and address time gap,US03T17,5,5,5,3,4,3,7
+US04,Upload and validate error message text,US04T1,5,4,5,3,3,3,6.5
+US04,Sync D1 file generation with FPDS data load,US04T2,5,5,5,4,4,1,7.2
+US04,Help create content mockups,US04T3,4,3,4,2,3,7,5.1
+US04,Historical FABS loader to derive fields correctly,US04T4,5,4,5,3,3,4,6.5
+US04,PPoPZIP+4 validation to match Legal Entity ZIP,US04T5,5,4,5,3,3,5,6.5
+US04,Submit records for individual recipients without DUNS error,US04T6,5,5,5,4,4,2,7.2
+US04,Updated error codes to reflect logic and provide actionable feedback,US04T7,5,4,5,3,3,6,6.5
+US05,Access published FABS files,US05T1,5,5,5,4,3,2,7.1
+US05,See updated financial assistance data daily,US05T2,5,5,5,4,4,1,7.2
+US06,Filter grant records from USAspending,US06T1,5,5,5,4,4,1,7.2
+US06,Create user testing summary from UI SME,US06T2,4,4,5,3,3,4,6
+US06,Design a schedule with UI SME,US06T3,4,4,5,3,3,5,6
+US06,Design an audit from UI SME,US06T4,5,4,5,3,3,3,6.5
+US06,Reset environment to only take Staging MAX permissions,US06T5,5,5,5,3,4,2,7
+US06,Only use zero-padded fields,US06T6,4,3,4,2,3,6,5.1
+US07,Include a large number of flex fields without performance impact,US07T1,5,5,4,4,4,3,6.9
+US07,Ensure deleted FSRS records are not included in submissions,US07T2,5,4,5,3,3,6,6.5
+US07,Accept zero and blank for loan records in FABS validation rules,US07T3,4,3,4,2,2,16,5
+US07,Ensure SAM data completeness,US07T4,5,5,5,3,3,4,6.9
+US07,Accept zero and blank for non-loan records in FABS validation rules,US07T5,4,3,3,2,2,18,4.7
+US07,Properly derive all data elements,US07T6,4,4,4,3,3,12,5.7
+US07,Match maximum length of LegalEntityAddressLine3 to Schema v1.1,US07T7,4,3,3,2,2,19,4.7
+US07,Use Schema v1.1 headers in FABS file,US07T8,5,3,4,3,3,11,5.8
+US07,Map FederalActionObligation properly to Atom Feed,US07T9,5,4,4,3,4,7,6.3
+US07,Keep FPDS data up-to-date daily,US07T10,4,5,5,4,4,5,6.7
+US07,Show updated date AND time in the header information box,US07T11,4,3,4,2,2,17,5
+US07,Provide helpful file-level error when wrong file extension is uploaded,US07T12,5,4,4,3,3,8,6.2
+US07,Load all historical Financial Assistance data for FABS go-live,US07T13,5,5,5,4,4,1,7.2
+US07,Load historical FPDS data,US07T14,5,5,5,4,4,2,7.2
+US07,Display submission creator for clarity,US07T15,4,3,4,2,3,15,5.1
+US07,Generate File F in correct format,US07T16,5,4,4,3,3,9,6.2
+US07,Improve understanding of file-level errors,US07T17,4,4,4,3,3,13,5.7
+US07,Allow ZIP submission without last 4 digits,US07T18,4,3,3,2,2,20,4.7
+US07,Show submission period start and end dates,US07T19,4,4,4,3,3,14,5.7
+US07,Provide landing page to navigate to FABS/DABS,US07T20,3,3,3,2,2,21,4.2
+US07,Provide landing page to navigate to FABS/DABS,US07T21,5,4,4,2,2,10,5.9
+US08,Access raw agency-published files from FABS via USAspending,US08T1,4,4,4,3,3,3,5.7
+US08,Deactivate publish button in FABS while derivations happen,US08T2,3,4,4,2,2,8,4.9
+US08,Show flexfields in warning/error files when missing required elements,US08T3,4,3,4,3,3,5,5.3
+US08,Provide accurate and complete data for PPoPCode and CongressionalDistrict,US08T4,5,5,5,3,4,2,7
+US08,Ensure NASA grants are not displayed as contracts,US08T5,4,4,4,3,3,4,5.7
+US08,"Allow DUNS validations for ActionTypes B, C, D with registered SAM data",US08T6,4,3,4,3,3,6,5.3
+US08,Allow DUNS validations for ActionDates in valid SAM registration range,US08T7,4,3,4,3,3,7,5.3
+US08,Generate and validate D Files from FABS and FPDS data,US08T8,5,5,5,4,4,1,7.2
+US08,Display row count before publishing,US08T9,3,4,3,3,3,9,4.9
+US09,Update SQL codes for clarity,US09T1,3,3,3,2,2,3,4.2
+US09,Add 00***** and 00FORGN PPoPCode cases to the derivation logic,US09T2,4,4,4,3,3,2,5.7
+US09,"Update Broker resources, validations, and P&P pages for the launch of FABS and DAIMS v1.1",US09T3,5,5,5,4,4,1,7.2
+US010,"Link the SAMPLE FILE in ""What you want to submit"" dialog to the correct file",US010T1,4,4,4,4,3,4,5.9
+US010,Ensure submission errors accurately represent FABS errors,US010T2,5,5,5,5,3,2,7.3
+US010,Make frontend URLs more accurate to reflect the correct page,US010T3,3,3,3,3,2,10,4.4
+US010,Allow submission of citywide as a PPoPZIP and pass validations,US010T4,4,4,4,4,2,5,5.8
+US010,Ensure historical data includes all necessary columns,US010T5,5,5,5,5,3,3,7.3
+US010,Provide additional helpful info in the submission dashboard,US010T6,4,4,4,4,2,6,5.8
+US010,Allow downloading the uploaded FABS file,US010T7,4,4,4,4,2,7,5.8
+US010,Ensure language on FABS pages is appropriate for users,US010T8,3,3,3,3,2,11,4.4
+US010,Prevent DABS banner messages from showing on FABS and vice versa,US010T9,3,3,3,3,1,12,4.3
+US010,Provide read-only access to DABS to FABS users,US010T10,4,4,4,4,2,8,5.8
+US010,Ensure validations run in a reasonable amount of time,US010T11,5,5,5,5,4,1,7.4
+US010,Display correct status labels on the Submission Dashboard,US010T12,4,4,4,4,2,9,5.8
+US011,Test access to features in non-Staging environments for validating nonProd features.,US011T1,4,3,3,3,3,2,5
+US011,Verify FABS field derivation using a robust test file followed by a comprehensive check.,US011T2,5,5,5,5,5,1,7.5
+US012,Integrate New Relic to provide useful data across all applications.,US012T1,5,4,4,4,4,1,6.5
+US013,"Enable public users to search for information about properties, County services, processes, and general info",US013T1,5,3,4,3,3,1,5.8
+US014,Enable prospective applicants to research requirements and select a service or application type through the portal.,US014T1,5,4,4,4,4,1,6.5
+US015,"Request PreApplication Assistance, so I can receive a response to a meeting or information request.",US015T1,4,4,4,3,3,9,5.7
+US015,"Submit Application, so I can provide my information to initiate a transaction.",US015T2,5,5,5,4,4,1,7.2
+US015,"Submit Supporting Documentation, so I can satisfy documentation requirements.",US015T3,5,5,5,3,4,2,7
+US015,"Pay Fee, so I can satisfy outstanding charges associated with the service.",US015T4,5,5,5,2,3,4,6.7
+US015,"Check Status of Transaction, so I can understand the progress of my service request.",US015T5,4,4,4,3,3,10,5.7
+US015,"Modify Application, so I can successfully change information on my application.",US015T6,4,4,4,4,4,6,6
+US015,"Satisfy Hearing Requirements, so I can ensure all pre-hearing requirements are met in time.",US015T7,4,5,4,4,4,5,6.4
+US015,"Request Plan Review Meeting, so I can meet with staff regarding the plan review.",US015T8,4,4,4,3,4,7,5.8
+US015,"Resubmit Plans, so I can review revised plans.",US015T9,4,4,4,3,4,8,5.8
+US015,"Complete Building Development Project, so I can receive posted bond or obtain occupancy.",US015T10,5,5,5,3,4,3,7
+US016,"Track Plan Amendments and Planning Studies to record work, outcome, and location-based info",US016T1,5,4,4,4,5,2,6.6
+US016,Generate Planning Reports for analysis and export in the requested format.,US016T2,5,4,4,3,4,3,6.3
+US016,Evaluate Consistency with the Comprehensive Plan for required reviews.,US016T3,5,5,5,4,4,1,7.2
+US017,Process Requests for Zoning Information to capture responses and send communication to the Applicant.,US017T1,5,4,4,3,3,2,6.2
+US017,Issue Zoning-Related Permits to satisfy eligible and compliant Applicant requests.,US017T2,5,5,5,4,4,1,7.2
+US018,Assign Plans for Review to ensure they are assigned to the appropriate Plan Reviewer.,US018T1,5,4,4,3,3,4,6.2
+US018,"Manage Plan Reviewer Workload to monitor and adjust workload, ensuring service levels are met.",US018T2,5,5,5,4,4,1,7.2
+US018,Conduct a Plan Review Meeting with the Applicant and record the outcome for future reference.,US018T3,4,4,4,4,4,5,6
+US018,"Review Plans for compliance and approve, fail, or deny the plans, recording conditions, clearances, or corrections.",US018T4,5,5,5,4,4,2,7.2
+US018,Review Code Modifications submitted by the Applicant and associate approved modifications with the project.,US018T5,4,4,4,4,4,6,6
+US018,Track the Completion of Required Plan Reviews to ensure all tasks are completed and downstream steps are initiated.,US018T6,5,5,5,3,3,3,6.9
+US019,Issue a Development-related Permit to grant the request for the Applicant to begin work.,US019T1,5,5,5,3,3,1,6.9
+US020,Create an Inspection to schedule and assign it to the appropriate staff.,US020T1,5,4,4,3,3,1,6.2
+US021,Assign Inspections to ensure the appropriate Inspector receives the work.,US021T1,5,5,5,3,3,2,6.9
+US021,Manage Inspector Workload to meet service level and quality requirements.,US021T2,5,5,5,4,4,1,7.2
+US022,Conduct Inspections to validate customer compliance with code and regulations and provide results to the customer.,US022T1,5,5,5,4,4,1,7.2
+US023,Issue a Notice of Violation to provide formal communication to the responsible party.,US023T1,5,5,5,3,3,1,6.9
+US024,Create a custom query/report outside of the common functionality to fulfill a specific request.,US024T1,5,4,4,4,4,1,6.5
+US025,Update GIS Property Management to reference the GIS layer where the Split or Merged Parcel Pin exists.,US025T1,5,4,4,4,4,1,6.5
+US026,Create a Customer Portal User Account to enable login and perform transactions that require user authentication.,US026T1,5,4,5,3,3,2,6.5
+US026,Request an Inspection to have a County inspector assigned for my project.,US026T2,5,5,5,3,3,1,6.9
+US027,Click on the address to open Google Maps in a new tab.,US027T1,4,3,4,2,2,20,5
+US027,View public information anonymously before creating an account.,US027T2,5,3,4,2,2,19,5.5
+US027,Enter a zip code and get a list of nearby recycling facilities.,US027T3,5,5,5,3,3,2,6.9
+US027,Get the hours of each recycling facility.,US027T4,5,4,5,3,3,7,6.5
+US027,Have a flexible pick-up time.,US027T5,4,4,4,3,3,16,5.7
+US027,Select different types of recyclable waste and get a list of facilities that accept each type with hours.,US027T6,5,4,5,4,4,3,6.8
+US027,Add donation centers as favorites for easy access later.,US027T7,4,3,4,2,2,21,5
+US027,Provide email ID to receive notifications.,US027T8,4,3,4,2,2,22,5
+US027,View a map display of public recycling bins.,US027T9,5,4,5,3,3,8,6.5
+US027,View a map display of special waste drop-off sites.,US027T10,5,4,5,3,3,9,6.5
+US027,View safe disposal events currently being organized in my area.,US027T11,5,4,5,3,3,10,6.5
+US027,Choose a flexible pick-up time.,US027T12,4,4,4,3,3,17,5.7
+US027,View user documentation for the website.,US027T13,4,3,4,2,2,23,5
+US027,Get feedback when entering an invalid zip code.,US027T14,5,5,5,2,2,6,6.6
+US027,Create an account to have a personal profile,US027T15,5,4,5,3,3,11,6.5
+US027,Check transaction history and keep a record of it.,US027T16,4,4,4,3,3,18,5.7
+US027,Have a great UI and UX experience.,US027T17,5,4,5,4,4,4,6.8
+US027,Access the site on all electronic devices.,US027T18,5,4,5,3,3,12,6.5
+US027,Receive rewards for using the website.,US027T19,5,3,5,3,3,15,6.1
+US027,Have personal information securely stored in the website database.,US027T20,5,5,5,4,4,1,7.2
+US027,View all recycling center locations on a map to plan drop-off routes.,US027T21,5,4,5,3,3,13,6.5
+US027,Upload weekly schedule to get recommendations for recycling centers based on availability.,US027T22,5,4,5,4,4,5,6.8
+US027,Link email account to profile for password recovery.,US027T23,4,3,4,2,2,24,5
+US027,Contact administrators for feedback or help.,US027T24,4,3,4,2,2,25,5
+US027,Browse facilities and see which ones are environmentally friendly.,US027T25,5,4,5,3,3,14,6.5
+US028,Add or remove recycling facilities' information to ensure users get the most recent data.,US028T1,5,4,5,3,3,6,6.5
+US028,Read users' feedback and complaints to improve service and add features.,US028T2,5,4,5,3,3,7,6.5
+US028,Block specific users based on IP address to prevent spamming on the website.,US028T3,4,5,5,4,4,5,6.7
+US028,View a dashboard that monitors all sites' statuses to understand user activity and service status.,US028T4,5,4,5,4,4,2,6.8
+US028,Ensure all data is encrypted to prevent information theft during a server breach or attack.,US028T5,5,5,5,5,5,1,7.5
+US028,Handle all users' activities to manage more efficiently.,US028T6,5,4,5,4,4,3,6.8
+US028,Add recycling center information to keep the database up-to-date over time.,US028T7,5,4,5,3,3,8,6.5
+US028,View user error logs to review and fix issues faced by users.,US028T8,5,4,5,3,3,9,6.5
+US028,Onboard recycling centers on the platform to increase information accuracy.,US028T9,5,4,5,4,4,4,6.8
+US028,View a dashboard with usage stats and locations to identify areas with the largest number of drop-offs,US028T10,5,4,5,3,3,10,6.5
+US028,Communicate directly with recycling facilities to keep them updated on features and improvements.,US028T11,5,3,4,3,3,11,5.8
+US029,Have full access to company data to understand the company's performance.,US029T1,5,4,5,4,4,1,6.8
+US030,Access the route planning system during work to get guided through the neighborhood.,US029T2,4,4,4,3,3,3,5.7
+US030,HR department employee access to full information of all employees working for this business.,US029T3,5,5,5,4,4,1,7.2
+US030,Receive quick notifications to process cases efficiently the first time.,US029T4,4,5,4,3,3,2,6.1
+US031,Access an API from the website to integrate and implement features in an iOS application.,US031T1,5,4,5,4,4,1,6.8
+US031,Use Bootstrap in the development process for easier and efficient web design.,US031T2,4,3,4,3,3,2,5.3
+US031,Attend UI/UX lessons to improve design skills and develop better-looking features.,US031T3,3,3,3,4,4,3,4.8
+US032,Create an easy-to-use website with step-by-step upload and delete functionality,US032T1,5,4,5,3,3,1,6.5
+US033,Provide functionality to view all available activity fees online for bill creation.,US033T1,5,5,5,3,3,1,6.9
+US034,Allow superuser to update recycling center information.,US034T1,5,5,5,3,3,1,6.9
+US034,"Enable superuser to view users' stats, including visits and recyclable waste details.",US034T2,5,4,5,4,4,2,6.8
+US034,Provide functionality for superuser to reply to user questions,US034T3,4,4,4,3,3,3,5.7
+US035,Allow recycling facility representatives to update their information and accepted materials.,US035T1,5,5,5,3,3,1,6.9
+US035,Provide access to user stats and schedules to adjust hours and equipment capacity.,US035T2,5,4,4,4,4,2,6.5
+US035,Enable direct communication between the facility and site admin to report issues or concerns.,US035T3,4,4,4,3,3,3,5.7
+US036,Allow hiding any dataset already added as Public.,US036T1,5,5,5,3,3,1,6.9
+US036,Provide a view of all datasets published by users for management actions.,US036T2,5,4,5,3,3,3,6.5
+US036,Enable deletion of datasets to handle takedown requests or test data cleanup,US036T3,5,5,5,3,3,2,6.9
+US036,Enable translation of data type hierarchies in Viewer for embed mode.,US036T4,4,4,4,4,4,4,6
+US037,Enable editing of published datasets.,US037T1,5,5,5,3,3,5,6.9
+US037,Allow editing of the data model for imported datasets.,US037T2,5,5,5,3,4,3,7
+US037,Enable deletion of published datasets.,US037T3,5,5,5,2,3,8,6.7
+US037,Allow editing of the data source for imported datasets,US037T4,5,5,5,3,4,4,7
+US037,Add support for constants in the packager for modeling dimensions.,US037T5,4,4,4,3,3,14,5.7
+US037,Allow importing data in Excel format.,US037T6,4,5,4,3,3,11,6.1
+US037,Inform users about requirements for visualizing data on a map.,US037T7,4,4,4,2,2,17,5.4
+US037,Allow importing data in JSON format.,US037T8,4,5,4,3,3,12,6.1
+US037,Enable importing data from Google Spreadsheets.,US037T9,4,5,4,3,3,13,6.1
+US037,Allow importing data from Fiscal Data Package descriptor files.,US037T10,4,4,4,3,3,15,5.7
+US037,Enable providing GeoJSON sources to the Platform Administrator for improved visualization.,US037T11,4,4,4,3,3,16,5.7
+US037,Enable automatic dataset updates when source files change,US037T12,5,5,5,4,4,1,7.2
+US037,Allow adding datasets in a Hidden state for drafting purposes.,US037T13,5,5,5,2,3,9,6.7
+US037,Enable hiding a dataset already added as Public.,US037T14,5,5,5,2,3,10,6.7
+US037,Provide a view for users to manage their published datasets.,US037T15,5,5,5,3,3,6,6.9
+US037,Provide a functioning Python Client for bulk dataset uploads.,US037T16,5,5,5,4,4,2,7.2
+US037,Validate CSV files before publishing to identify data issues.,US037T17,5,5,5,3,3,7,6.9
+US038,"Enable filtering, sorting, and aggregating data by multiple dimensions and measures.",US038T1,5,5,5,4,4,1,7.2
+US038,Enable downloading CSVs of data used in visualizations.,US038T2,5,5,5,3,3,2,6.9
+US038,Allow changing monetary measures across multiple currencies for localization.,US038T3,4,4,4,4,3,5,5.9
+US038,Add textual descriptions to accompany embedded visualizations.,US038T4,4,4,4,3,3,6,5.7
+US038,Allow sharing a view state as a URL to social networks,US038T5,4,4,4,3,3,7,5.7
+US038,Enable downloading images of specific view states for offline use.,US038T6,4,5,4,3,3,4,6.1
+US038,Allow sharing images of view states to social networks,US038T7,4,4,4,3,3,8,5.7
+US038,Add stepped zoom for better control in map visualizations.,US038T8,4,4,4,3,3,9,5.7
+US038,Ensure consistent use of colors in map visualizations for clarity,US038T9,4,4,4,3,2,11,5.6
+US038,Enable searching datasets by title and metadata for public accessibility.,US038T10,5,5,5,3,3,3,6.9
+US038,"Set default visualizations (treemap, bubble tree, map, pivot table) to the most recent year in datasets.",US038T11,4,4,4,3,3,10,5.7
+US039,Identify if a user is a Publisher,US039T1,4,3,4,2,3,12,5.1
+US039,Identify if a user is an Administrator,US039T2,5,4,5,3,4,5,6.6
+US039,Retrieve bordering regions/cities for mapping context,US039T3,4,2,4,3,3,15,4.9
+US039,Dynamically request polygons based on query,US039T4,5,5,5,4,5,1,7.3
+US039,"API using HASC codes for countries, regions, and cities",US039T5,5,4,5,3,4,6,6.6
+US039,Get CSV output for cube-based queries,US039T6,4,3,4,2,2,13,5
+US039,Convert monetary measures into different currencies,US039T7,4,3,4,3,3,7,5.3
+US039,Use metadata to access multiple datasets,US039T8,5,4,5,4,4,3,6.8
+US039,Use data to get results from multiple datasets,US039T9,5,4,5,4,3,4,6.7
+US039,Normalize measures by population,US039T10,4,3,4,3,3,8,5.3
+US039,Normalize measures by geographical area,US039T11,4,3,4,3,3,9,5.3
+US039,Normalize measures by GDP,US039T12,4,3,4,3,3,10,5.3
+US039,Normalize measures by GINI and related socioeconomic indexes,US039T13,4,3,4,3,3,11,5.3
+US039,Get relative percentage of a measure to the total dataset,US039T14,3,4,4,2,3,14,5
+US039,Persistently store visualization state in the database,US039T15,5,5,5,4,4,2,7.2
+US039,Change colors of embedded visualizations on my platform,US039T16,3,3,4,2,2,16,4.5
+US039,Change some styling of embedded Viewer to match organizations color scheme,US039T17,3,3,4,2,2,17,4.5
+US040,"Customize the Brand Name, Icon, and Primary Color of frontend JavaScript apps",US040T1,5,4,5,3,3,1,6.5
+US041,Create a blog that highlights projects in the open fiscal space,US041T1,5,4,5,3,4,2,6.6
+US041,Develop an app where users can find examples of fiscal data visualizations,US041T2,5,4,5,4,4,1,6.8
+US042,Allow users to set their own username,US042T1,5,5,5,2,2,1,6.6
+US043,Describe yourself on your own page in a semi-structured way,US043T1,3,2,3,2,2,14,3.8
+US043,Fill out an application to become a Certified Scrum Practitioner,US043T2,5,3,5,3,3,3,6.1
+US043,Fill out an application to become a Certified Scrum Trainer,US043T3,5,3,5,3,3,4,6.1
+US043,View the profiles of other members,US043T4,4,2,4,2,2,12,4.6
+US043,Search for profiles based on a few fields,US043T5,4,3,4,3,3,7,5.3
+US043,Mark your profile as private,US043T6,5,5,5,2,2,1,6.6
+US043,Mark your email address as private,US043T7,5,5,5,2,2,2,6.6
+US043,Send an email to any member via a form,US043T8,3,3,3,3,3,13,4.5
+US043,Subscribe to an RSS feed of news,US043T9,4,3,4,2,3,8,5.1
+US043,Download the latest training material and methodology PDFs,US043T10,5,3,5,2,3,5,5.9
+US043,Scroll through a listing of jobs,US043T11,4,2,4,2,3,11,4.7
+US043,Subscribe to an RSS feed of jobs available,US043T12,4,3,4,2,3,9,5.1
+US043,Read the entire article after reading a teaser,US043T13,4,3,4,2,2,10,5
+US043,Have full access to all articles,US043T14,5,3,5,2,3,6,5.9
+US044,Include additional details about me in my profile page,US044T1,4,2,4,3,3,2,4.9
+US044,Write an article for the site with a small graphic showing my CSP or CST status,US044T2,5,3,5,3,3,1,6.1
+US045,Include additional details in my profile page about me,US045T1,4,2,4,3,3,11,4.9
+US045,List my upcoming classes in my profile and include a link to a detailed page about each,US045T2,5,3,5,3,3,3,6.1
+US045,Create a new course or event,US045T3,5,3,5,4,4,2,6.4
+US045,Create an Other Course or Event and be charged a listing fee for that activity,US045T4,4,3,4,4,4,6,5.6
+US045,Update one of my existing courses or events,US045T5,4,2,4,3,3,12,4.9
+US045,Delete one of my courses or events,US045T6,3,3,3,2,2,14,4.2
+US045,Copy one of my courses or events,US045T7,4,3,4,3,3,8,5.3
+US045,Turn a course into an event or an event into a course,US045T8,4,3,4,3,3,9,5.3
+US045,Ensure the upcoming courses are what I want visitors to notice,US045T9,5,3,5,3,3,4,6.1
+US045,Be assured that no one can submit the same answers multiple times and skew my results,US045T10,5,4,5,4,3,1,6.7
+US045,Be notified about the results of surveys about my classes,US045T11,4,3,4,3,3,10,5.3
+US045,Show my rating on my profile page,US045T12,5,3,5,2,2,5,5.8
+US045,Load an Excel file into the site for course participant records,US045T13,4,3,4,4,3,7,5.5
+US045,Read information relevant only to trainers,US045T14,3,2,4,3,3,13,4.4
+US046,Read practicing and training applications and approve or reject them,US046T1,5,4,5,3,2,2,6.4
+US046,Edit any site member profile,US046T2,4,3,4,2,3,5,5.1
+US046,Create an Other Course or Event that is not charged a listing fee,US046T3,4,3,4,4,4,4,5.6
+US046,Set the listing fee per Other Course or Event,US046T4,5,3,5,4,3,3,6.3
+US046,"Set the annual fees for members, Practitioners and Trainers",US046T5,5,4,5,3,3,1,6.5
+US047,Delete any course or event,US047T1,4,4,5,2,3,4,5.8
+US047,Approve each help wanted ad before it gets to the site,US047T2,5,4,5,3,3,2,6.5
+US047,Be emailed whenever a job is submitted,US047T3,4,3,4,2,2,8,5
+US047,Edit and delete help wanted ads,US047T4,4,3,4,3,3,6,5.3
+US047,Stop publishing jobs on the site 30 days after being posted,US047T5,5,3,4,3,3,5,5.8
+US047,See the results for each trainer and averages for the class,US047T6,4,4,5,3,3,3,6
+US047,View all classes in a pending state,US047T7,4,3,4,3,3,7,5.3
+US047,Move people in a trainer's class from pending to the registry after proof of payment,US047T8,5,4,5,3,4,1,6.6
+US048,"Set dates on news items (Start Publishing, Old News, Stop Publishing)",US048T1,5,4,4,3,3,7,6.2
+US048,Assign priority numbers to news items,US048T2,4,3,4,3,2,14,5.2
+US048,Update any course or event,US048T3,4,4,5,3,3,10,6
+US048,Maintain a FAQ section,US048T4,4,3,4,2,2,15,5
+US048,Include a teaser with each article,US048T5,4,3,4,3,3,13,5.3
+US048,Add an article to the site,US048T6,5,4,5,3,3,1,6.5
+US048,Set publishing dates for articles,US048T7,5,4,5,3,3,2,6.5
+US048,Designate whether an article/event makes the home page,US048T8,4,4,4,3,3,12,5.7
+US048,Control article visuals,US048T9,5,4,4,4,3,3,6.4
+US048,Indicate whether an article is publicly available or for members only,US048T10,5,4,5,3,2,4,6.4
+US048,Add a prominent area on the home page for special announcements,US048T11,5,4,4,4,3,5,6.4
+US048,Have flexibility in content placement,US048T12,5,4,4,3,3,8,6.2
+US048,"Create content for the ""What Is Scrum"" section",US048T13,5,4,4,4,3,6,6.4
+US048,Edit email content for new Certified Scrum Masters and Product Owners,US048T14,5,4,4,3,2,9,6.1
+US048,Post information in a trainers-only section,US048T15,4,3,4,2,2,16,5
+US048,Include a teaser with each article,US048T16,4,4,5,3,3,11,6
+US049,Post a help wanted ad to attract candidates,US049T1,5,5,5,3,3,1,6.9
+US049,Extend an ad for another 30 days by updating the posting,US049T2,4,4,4,3,3,2,5.7
+US050,Email reminder seven days before an ad expires to prompt extension,US050T1,4,5,5,3,3,1,6.4
+US051,Name listed in the registry without becoming a member for verification,US051T1,4,4,4,3,3,3,5.7
+US051,Welcome email with registration/activation instructions after name is added to the registry,US051T2,4,5,5,3,3,1,6.4
+US051,Fee charged upon approval for Practitioner status to activate certification status,US051T3,3,5,4,4,4,2,5.9
+US052,Display logo on a corporate sponsors page,US052T1,4,4,5,2,3,2,5.8
+US052,Make logo randomly appear on the home page,US052T2,5,4,5,3,4,1,6.6
+US053,Join the Scrum Alliance by paying a corporate membership fee,US053T1,5,5,5,3,3,1,6.9
+US054,Pay an annual fee to keep CST status active,US054T1,5,4,5,2,3,1,6.3
+US055,Receive a reminder and link to renew membership,US055T1,5,5,5,2,3,2,6.7
+US055,System emails a new password or a reminder for password recovery,US055T2,5,5,5,3,4,1,7
+US056,Read current news on the home page,US056T1,5,5,4,2,3,8,6.4
+US056,Access old news no longer on the home page,US056T2,4,4,3,2,2,21,5.1
+US056,Email news items to the editor,US056T3,3,3,3,3,3,25,4.5
+US056,See a list of all upcoming Certification Courses,US056T4,5,5,5,4,4,1,7.2
+US056,See a list of all upcoming Other Courses,US056T5,5,4,4,4,4,7,6.5
+US056,See a list of all upcoming Events,US056T6,5,4,4,4,3,9,6.4
+US056,Use advanced search options,US056T7,4,4,4,5,4,10,6.2
+US056,View a course and click on the trainer's name to access their profile,US056T8,4,4,4,3,3,13,5.7
+US056,Subscribe to an RSS feed of upcoming courses and events,US056T9,3,3,3,3,3,26,4.5
+US056,Read FAQs,US056T10,4,4,3,2,2,22,5.1
+US056,Perform a full-text search of FAQs,US056T11,4,4,3,3,3,18,5.4
+US056,Read a new article on the front page about once a week,US056T12,4,4,3,3,3,19,5.4
+US056,Click the link from an article teaser to go directly to the article body,US056T13,5,5,3,2,2,12,6
+US056,Read some articles without needing to join the site,US056T14,4,3,5,3,3,17,5.6
+US056,"Perform a full-text search of article body, title, and author name",US056T15,4,4,3,3,3,20,5.4
+US056,Subscribe to an RSS feed of articles,US056T16,3,3,4,2,3,24,4.6
+US056,Post comments about articles,US056T17,4,3,3,3,3,23,5
+US056,See new content when visiting the site,US056T18,5,5,3,2,3,11,6.1
+US056,Have articles that are interesting and easy to access,US056T19,5,5,5,3,3,2,6.9
+US056,Know what Scrum is and why it needs an alliance upon visiting the site,US056T20,5,5,5,3,3,3,6.9
+US056,Know what a CSM is and why its beneficial upon visiting the site,US056T21,5,5,5,3,3,4,6.9
+US056,Get back to the home page quickly and easily,US056T22,5,5,5,2,2,6,6.6
+US056,See a list of the most popular items on the site,US056T23,4,4,4,3,3,14,5.7
+US056,See a trainer's rating,US056T24,4,4,4,3,3,15,5.7
+US056,View a section that teaches the basics of Scrum,US056T25,5,5,5,3,3,5,6.9
+US056,"View lists of all Certified Scrum Masters, Practitioners, Trainers, and Certified Product Owners",US056T26,4,4,4,3,3,16,5.7
+US057,Get a Data Package into Julia in seconds,US057T1,5,5,5,3,3,3,6.9
+US057,Save new visualizations to share or include in the Data Package,US057T2,5,4,5,3,4,13,6.6
+US057,Get a Data Package into R in seconds,US057T3,5,5,5,3,3,4,6.9
+US057,Get a Data Package into Excel in seconds,US057T4,5,5,5,2,2,11,6.6
+US057,Get a Data Package into SPSS in seconds,US057T5,5,5,5,3,3,5,6.9
+US057,Get a Data Package into STATA in seconds,US057T6,5,5,5,3,3,6,6.9
+US057,Translate an EML dataset to a Data Package,US057T7,5,4,5,4,4,8,6.8
+US057,Get a Data Package into LibreOffice/OpenOffice in seconds,US057T8,5,5,5,2,2,12,6.6
+US057,Get an Excel spreadsheet into a Data Package,US057T9,5,5,5,3,3,7,6.9
+US057,Reference a remote-controlled vocabulary for a dataset,US057T10,4,4,5,4,4,15,6.3
+US057,Microsoft Power BI integration to import datasets without downloading locally,US057T11,5,5,5,4,4,1,7.2
+US057,NetCDF integration to store data in plaintext while retaining metadata,US057T12,5,4,5,4,4,9,6.8
+US057,Integration with Mendeley for data validation upon ingest,US057T13,5,4,5,3,3,14,6.5
+US057,Generate basic statistics about a dataset for a quick preview,US057T14,4,4,5,2,2,16,5.7
+US057,Generate an OpenRefine reconciliation API endpoint from a Tabular Data Package,US057T15,5,5,5,4,4,2,7.2
+US057,Create proxy Data Packages for well-known and reliable data sources,US057T16,5,4,5,4,4,10,6.8
+US058,Get a Data Package into Node,US058T1,5,5,5,3,3,10,6.9
+US058,Get a Data Package into Python in seconds,US058T2,5,5,5,3,3,11,6.9
+US058,Get a jQuery plugin for Core Data Packages,US058T3,4,4,5,3,4,18,6.1
+US058,Do exploratory data analysis in R and operationalize in Python,US058T4,5,5,5,4,4,1,7.2
+US058,Get a Data Package into Clojure in seconds,US058T5,5,5,5,3,3,12,6.9
+US058,Get a Data Package into Julia in seconds,US058T6,5,5,5,3,3,13,6.9
+US058,Get a Data Package into C++ in seconds,US058T7,5,5,5,3,3,14,6.9
+US058,Elasticsearch integration,US058T8,5,5,5,4,4,2,7.2
+US058,SPSS integration,US058T9,5,5,5,4,4,3,7.2
+US058,EPrints integration,US058T10,4,4,5,4,4,16,6.3
+US058,Mongo integration,US058T11,5,5,5,4,4,4,7.2
+US058,DAT integration,US058T12,5,5,5,4,4,5,7.2
+US058,DSpace integration,US058T13,5,5,5,4,4,6,7.2
+US058,Feather integration,US058T14,5,5,5,4,4,7,7.2
+US058,HDF5 integration,US058T15,5,5,5,4,4,8,7.2
+US058,Online service connected to repository for data validation,US058T16,5,5,5,3,3,15,6.9
+US058,Customize an existing wizard for my data,US058T17,4,4,5,4,4,17,6.3
+US058,Create a web socket protocol for Frictionless data tools,US058T18,5,5,5,4,4,9,7.2
+US059,Add type information to data,US059T1,5,5,5,3,3,8,6.9
+US059,Provide a visualization of data in the Data Package,US059T2,5,5,5,4,4,1,7.2
+US059,Integration with Open Refine for cleaned Data Packages,US059T3,5,5,5,4,4,2,7.2
+US059,Integration with Excel for cleaned Data Packages,US059T4,5,5,5,4,4,3,7.2
+US059,Store data quickly and easily online,US059T5,5,5,5,3,3,9,6.9
+US059,Check data quality on every update,US059T6,5,5,5,3,3,10,6.9
+US059,Embed an interactive preview of data on my site,US059T7,5,5,5,4,3,6,7.1
+US059,Embed a preview button on my site,US059T8,5,5,5,3,3,11,6.9
+US059,Know how many users have previewed a dataset,US059T9,4,4,5,3,3,12,6
+US059,Add useful metadata or new data columns to the dataset,US059T10,5,5,5,3,4,7,7
+US059,Package reproducible steps for data state,US059T11,5,5,5,4,4,4,7.2
+US059,Tool to check data availability persistence after publication,US059T12,5,5,5,4,4,5,7.2
+US060,Know that my data conforms to its Data Package profile,US060T1,5,5,5,4,4,1,7.2
+US060,Understand the ways in which my data is invalid,US060T2,5,5,5,3,3,4,6.9
+US060,Integration with Zenodo (GitHub) to avoid retyping descriptive information,US060T3,5,5,5,4,4,2,7.2
+US060,Publish Data Packages to CKAN (for findability and data API),US060T4,5,5,5,4,4,3,7.2
+US060,Validate my data with a minimum of clicks,US060T5,5,5,5,3,3,5,6.9
+US060,Specify the funding that contributed to the creation of a given dataset,US060T6,5,5,5,3,3,6,6.9
+US060,Add a DOI to a dataset for citation in papers,US060T7,5,5,5,3,3,7,6.9
+US061,Package ML datasets as data packages for easy import into ML platform,US061T1,5,4,5,3,4,1,6.6
+US062,Add general reference data to narrow dataset,US062T1,5,4,5,3,4,2,6.6
+US062,Add country names to dataset with country codes,US062T2,5,4,5,3,4,3,6.6
+US062,Add inflation reference data to spending dataset,US062T3,5,4,5,3,4,4,6.6
+US062,Map lines using geographic data,US062T4,5,4,5,4,4,1,6.8
+US063,Import/export from MS-SQL for Data Packages in workflows,US063T1,5,4,5,4,4,1,6.8
+US064,Command line tool for data validation in workflow,US064T1,5,4,5,3,4,1,6.6
+US065,Store Data Package in GitHub and automatically store into CKAN for API access,US065T1,5,4,5,4,4,1,6.8
+US066,App for matchmaking between data owners and data packagers,US066T1,5,4,5,3,4,1,6.6
+US067,Assessing the quality of government data for transparency,US067T1,5,5,5,3,3,1,6.9
+US068,Proving the validity of published government data for transparency claims,US068T1,5,5,5,3,3,1,6.9
+US069,Tool for adding basic metadata to research data for discoverability,US069T1,4,3,4,4,4,1,5.6
+US070,Add campers to keep track of individuals,US070T1,5,5,5,5,4,1,7.4
+US070,Remove campers if they don't attend the camp anymore,US070T2,4,4,4,5,5,19,6.3
+US070,Keep camper records from previous years,US070T3,4,4,4,4,5,28,6.1
+US070,"Upload consent forms for camper/parent access	",US070T4,5,5,4,4,4,10,6.9
+US070,"Upload consent forms for camper/parent access	",US070T5,5,5,5,4,4,2,7.2
+US070,Schedule activities for campers,US070T6,5,4,5,3,3,18,6.5
+US070,Automatically create nametags to reduce workload,US070T7,4,4,5,5,5,17,6.6
+US070,Suspend a camper with behavioral problems,US070T8,4,4,4,4,4,29,6
+US070,Set reminders for specific tasks,US070T9,3,3,4,5,5,33,5.4
+US070,Assign positions to staff members for organized responsibilities,US070T10,4,4,4,5,4,27,6.2
+US070,Warn a camp worker for inappropriate behavior,US070T11,3,3,4,5,5,34,5.4
+US070,Create/modify rules for campers and camp workers,US070T12,4,3,4,4,4,31,5.6
+US070,Track usage of internal camp facilities to avoid conflicting schedules,US070T13,4,4,4,4,4,30,6
+US070,Create an avenue for parents to submit feedback and concerns,US070T14,4,4,5,4,4,20,6.3
+US070,Store campers' emergency information,US070T15,5,5,5,4,4,3,7.2
+US070,Store parent/guardian information for emergencies or unacceptable behavio,US070T16,5,5,5,4,4,4,7.2
+US070,Provide bi-weekly feedback to parents about camper performance,US070T17,4,4,5,4,4,21,6.3
+US070,Make nametags faster to save time,US070T18,4,4,4,5,5,22,6.3
+US070,Create a registration form for staff and kids,US070T19,4,4,5,4,4,23,6.3
+US070,Keep admin information in one place for future improvements,US070T20,3,3,4,5,5,35,5.4
+US070,"View medical forms to prepare for emergencies (e.g., allergies)",US070T21,5,5,5,4,4,5,7.2
+US070,Notify parents all at once about events,US070T22,5,5,5,4,4,6,7.2
+US070,Log attendance quickly every day,US070T23,5,5,5,4,4,7,7.2
+US070,Add parents to enable camper enrollment,US070T24,4,4,5,4,4,24,6.3
+US070,Create groups and add campers to groups for better organization,US070T25,5,4,5,4,4,11,6.8
+US070,View all camp groups and their schedules to notify counselors,US070T26,5,4,5,4,4,12,6.8
+US070,Schedule tasks/activities for a specific camp group,US070T27,5,4,5,4,4,13,6.8
+US070,Delete tasks/activities from the schedule,US070T28,4,3,4,4,4,32,5.6
+US070,Modify tasks/events scheduled in case of changes,US070T29,5,4,5,4,4,14,6.8
+US070,Modify camper information to keep records up to date,US070T30,5,5,5,4,4,8,7.2
+US070,Delete campers from the database to keep it clutter-free,US070T31,4,4,5,4,4,25,6.3
+US070,Modify added parents' information to keep records up to date,US070T32,5,5,5,4,4,9,7.2
+US070,Delete parents from the database to keep it clutter-free,US070T33,4,4,5,4,4,26,6.3
+US070,Modify group information to keep records up to date,US070T34,5,4,5,4,4,15,6.8
+US070,See only events for specific groups on the event calendar to reduce clutter,US070T35,5,4,5,4,4,16,6.8
+US071,See which consent forms have been submitted,US071T1,4,4,5,3,4,11,6.1
+US071,Track child's activity and schedule at camp,US071T2,5,4,5,3,4,7,6.6
+US071,Submit various types of forms to the camp management,US071T3,5,5,5,3,4,4,7
+US071,Create an account to sign up kids for camp online,US071T4,5,5,5,4,5,1,7.3
+US071,See which counselors are assigned to the kids,US071T5,4,4,5,3,3,12,6
+US071,Message childs counselors to voice concerns or check progress,US071T6,5,4,5,3,4,8,6.6
+US071,Sign and submit consent forms online,US071T7,5,5,5,3,4,5,7
+US071,See if all necessary payments have been made,US071T8,5,5,5,3,3,6,6.9
+US071,Share photos the camp has taken of the child,US071T9,4,3,5,4,4,13,5.9
+US071,Connect with staff in case of an emergency,US071T10,5,5,5,4,4,3,7.2
+US071,Enroll children into the camp,US071T11,5,5,5,4,5,2,7.3
+US071,See and edit enrolled children for the camp year to track who is enrolled or pending admission,US071T12,4,4,5,4,4,10,6.3
+US071,See a schedule of the activities the children are involved in at camp,US071T13,5,4,5,3,4,9,6.6
+US072,See which campers I am in charge of and where (Unique),US072T1,5,5,5,3,4,1,7
+US072,Submit a completion report for tasks assigned,US072T2,5,4,5,3,3,3,6.5
+US072,Report a camper to the manager for inappropriate behavior,US072T3,5,5,5,3,3,2,6.9
+US072,Report a list of supplies to the manager that the camp is short of,US072T4,4,4,4,4,4,4,6
+US072,Report necessary repairs to the manager that the camp is in need of,US072T5,4,4,4,4,4,5,6
+US073,Mark attendance for assigned campers,US073T1,5,5,5,3,3,1,6.9
+US074,See the first iteration of beta up on cloud.gov.,US074T1,5,5,5,4,4,1,7.2
+US074,Have a prioritized list of features and elements of a future social element page.,US074T2,4,4,4,3,4,11,5.8
+US074,Determine a design direction for the beta social page.,US074T3,4,4,4,4,3,8,5.9
+US074,Meet with DIS / cloud.gov to determine requirements for beta.nsf.gov ATO.,US074T4,5,4,5,4,4,4,6.8
+US074,Understand what the MVP should look like,US074T5,5,5,5,4,3,2,7.1
+US074,Have an updated acquisitions roadmap.,US074T6,4,4,4,4,3,9,5.9
+US074,Understand how time off overlaps with plans around the user research.,US074T7,3,3,3,3,3,15,4.5
+US074,Know what the first hypothesis is to start developing a prototype to test.,US074T8,4,4,4,4,3,10,5.9
+US074,Have a prototype strategy to guide understanding from tests,US074T9,5,4,4,4,4,6,6.5
+US074,Have a schedule of more coworking slots.,US074T10,3,3,3,2,2,16,4.2
+US074,Know when the mid-point check-in is and what will be covered.,US074T11,3,3,4,2,3,14,4.6
+US074,Know visual design-related tasks for this sprint to assign tasks.,US074T12,4,4,4,3,4,12,5.8
+US074,Have recruiting-email templates ready to recruit interviewees ASAP.,US074T13,5,5,5,3,4,3,7
+US074,Have a high-level sense of the project timeline.,US074T14,4,4,4,3,3,13,5.7
+US074,Have a platform for rapid prototyping of HTML ideas.,US074T15,5,4,4,4,4,7,6.5
+US074,Know when meetings are to plan accordingly.,US074T16,3,3,3,2,2,17,4.2
+US074,Understand how work moves between UX/content > visual design > front-end dev for a sprint cycle.,US074T17,5,4,5,4,4,5,6.8
+US075,"Have the subdomain beta.nsf.gov be set up, so that I can deploy a beta site to it.",US075T1,5,5,5,4,4,1,7.2
+US075,"Know what the three initial hypotheses are, so that I can plan work around development of prototypes.",US075T2,5,5,5,3,4,2,7
+US076,"Have a decision on whether or not the blog aggregator may work for beta, and if not what will.",US076T1,5,5,5,4,4,1,7.2
+US076,"See the results of user research, so that I can determine if the CMS is right for me.",US076T2,5,5,5,3,4,2,7
+US077,Understand the process of switching the cloud.gov hosting plan over from prototype to FISMA low.,US077T1,5,5,5,4,4,1,7.2
+US077,"Have an updated roadmap document, so that I can see prioritized areas to focus on for the next few months and beyond.",US077T2,5,4,5,4,4,4,6.8
+US077,Narrow down the universe of CMS options and identify/prioritize key considerations for getting to the next step.,US077T3,5,5,5,3,4,2,7
+US077,Have a final workshop to identify key lessons and features for the content management system decision.,US077T4,5,5,5,3,4,3,7
+US077,"Understand work performed, so that I can understand when and what I can use later.",US077T5,4,4,4,3,3,9,5.7
+US077,Have high-level strategy recommendations to implement in conjunction with the new CMS.,US077T6,5,4,5,3,4,5,6.6
+US077,"Have editorial-planning recommendations, so that I can understand how they might impact an eventual CMS / future web presence.",US077T7,5,4,4,3,4,6,6.3
+US077,"Know how brand guidelines are developed and maintained, so that I can incorporate them throughout the project.",US077T8,4,4,5,3,4,7,6.1
+US077,"Know how visual design directions were developed, so that I can make better design decisions in the future.",US077T9,4,4,5,3,4,8,6.1
+US077,"Schedule regular in-person check-ins, so that we can continue to communicate the goals of the project with our stakeholders.",US077T10,4,4,4,2,3,10,5.5
+US077,"Join Github, so that I can participate in the issues as assigned.",US077T11,3,3,3,2,3,13,4.3
+US077,"Learn about how Github is used, so that I can participate in the issues as assigned.",US077T12,3,3,3,2,3,14,4.3
+US077,"See how the user recruitment form looks and behaves on a sample page, so that I can understand the impact the recruitment will have on the NSF page.",US077T13,4,3,4,3,4,11,5.4
+US077,"Know where the initial in-person meeting will be, so that I can plan on attending.",US077T14,4,3,3,2,2,12,4.7
+US078,"Test the user research plan, so that I make sure the in-person interviews are effective and capturing the right information.",US078T1,5,5,5,4,4,1,7.2
+US078,"Have the finalized OLPA task script, so that I can begin testing with internal users.",US078T2,5,5,5,4,3,2,7.1
+US078,"Have the WIG prototype, so that I can finalize the second task script.",US078T3,5,5,5,4,3,3,7.1
+US078,"Have a list of priority workflow candidates that we might test, so that I can make sure we're capturing the priority areas.",US078T4,5,5,5,3,4,4,7
+US078,"Continue scheduling interviews for hypothesis #1, so that I can be prepared to test our first prototype.",US078T5,5,5,5,3,3,5,6.9
+US078,"Know when outreach to lists is successful, so that I can plan on a new release to the next listserv on the priority list",US078T6,4,4,5,3,3,11,6
+US078,"Begin identifying interview participants, so that I can understand what educators and science influencers need from a future nsf.gov website.",US078T7,5,4,5,3,3,10,6.5
+US078,"Set up a website recruitment test, so that I can see if we can recruit users in real time from the website.",US078T8,5,5,5,3,3,6,6.9
+US078,"Make sure the correct NSF people are invited to user interviews, so that they can observe the interviews and make recommendations accordingly.",US078T9,5,5,5,3,3,7,6.9
+US078,"Begin drafting a research plan, so that I can begin recruiting participants.",US078T10,5,5,4,3,3,9,6.6
+US078,"Conduct a user definition workshop with NSF, so that I can better prepare them and the team for future research work.",US078T11,5,4,5,4,3,8,6.7
+US079,"Have a new social media wireframe, so that I can begin implementing design",US079T1,5,5,5,4,4,1,7.2
+US079,"Know what early indications of hypotheses might be, so that I can start planning for the first prototype.",US079T2,5,4,5,3,3,3,6.5
+US079,"Have a style guide / design guide / content guide, so that we have a uniform way of delivering product.",US079T3,5,5,5,4,3,2,7.1
+US080,"Be able to easily find content, so that I can edit it.",US080T1,5,5,5,4,3,1,7.1
+US080,Be able to add videos from Brightcove.,US080T2,5,4,5,3,3,2,6.5
+US081,"Make sure that the appearance of the prototype does not distract from the workflow, so that I can complete the user interview.",US081T1,5,5,5,3,3,1,6.9
+US082,Learn about the research and leave my contact information.,US082T1,5,4,5,3,3,1,6.5
+US083,Add a video to my article.,US083T1,5,4,5,3,3,1,6.5
+US084,"Shadow the CMS implementation, so that I can learn as the prototype is developed further.",US084T1,5,4,5,4,3,1,6.7
+US085,"Develop the user research protocol for internal workflows, so that we can begin testing against a CMS prototype",US085T1,5,5,5,4,4,1,7.2
+US085,"Recruit for the last round of user research, so that we can summarize our findings and synthesize results.",US085T2,5,4,5,3,3,2,6.5
+US086,"Have roles, so that I can assign them to my users.",US086T1,5,5,5,4,3,1,7.1
+US087,"See the webmaster workflow report, so that I can understand how this might impact current direction.",US087T1,5,4,5,3,3,1,6.5
+US088,Confirm the recruiter is set up and working properly on Science360.gov.,US088T1,5,5,5,3,3,1,6.9
+US088,"Confirm the recruiter is set up and working properly, so that I can deploy it on more pages.",US088T2,5,4,5,3,3,2,6.5
+US089,"Develop a better understanding of NSF's content types and editorial plan, so that I can make more informed recommendations going forward.",US089T1,5,4,5,3,4,1,6.6
+US089,Demonstrate the value of user-centered content design to ensure it's an integral part of our recommendations.,US089T2,5,4,5,3,4,2,6.6
+US090,"Have a summary of what we learned, so that I can understand our next steps and how they apply to me.",US090T1,5,4,5,3,3,1,6.5
+US090,See a summary of major findings from the event.,US090T2,5,4,5,3,3,2,6.5
+US091,Know when the user interviews are scheduled and the type of user that will be interviewed.,US091T1,5,5,5,3,2,1,6.8
+US092,"Have a place where I can access all the related reports and documentation, so that I can refer to it easily now and in the future.",US092T1,5,5,5,4,4,1,7.2
+US092,"Conceptualize different design styles for the nsf.gov website, so that we can discuss various design concepts with stakeholders.",US092T2,5,5,5,4,4,2,7.2
+US092,"Create a moodboard to support the visual design concepts for the nsf.gov website, so that we can facilitate discussions with stakeholders.",US092T3,5,5,5,4,4,3,7.2
+US092,"Demonstrate the value of visual design to the NSF project team, ensuring that visual design becomes an integral part of the",US092T4,5,4,5,3,4,4,6.6
+US093,Be able to indent and outdent content.,US093T1,4,4,5,3,3,1,6
+US094,Understand how similar organizations handle visual design for informed decisions.,US094T1,5,4,5,3,3,1,6.5
+US094,Understand how similar organizations handle content for informed decisions.,US094T2,5,4,5,3,3,2,6.5
+US095,Create a new game by entering a name and description.,US095T1,5,5,5,3,3,2,6.9
+US095,Invite estimators via URL.,US095T2,5,4,5,3,3,4,6.5
+US095,Start a round by entering an item in a text field.,US095T3,4,5,4,3,3,6,6.1
+US095,See all items to estimate in a session.,US095T4,4,4,4,3,3,12,5.7
+US095,Select an item to estimate or re-estimate.,US095T5,4,4,4,3,3,13,5.7
+US095,Add an item to the list of items to estimate.,US095T6,3,4,3,3,3,26,4.9
+US095,Edit an item in the list of items to estimate.,US095T7,3,4,3,4,3,24,5.1
+US095,Delete an item from the list of items to estimate.,US095T8,3,3,3,3,3,27,4.5
+US095,Show all estimates immediately.,US095T9,3,4,3,4,3,25,5.1
+US095,Accept the average of all estimates.,US095T10,4,4,3,3,3,19,5.4
+US095,Auto-fill estimate field if all estimators agree.,US095T11,4,4,4,3,4,10,5.8
+US095,Enter the agreed-upon estimate.,US095T12,4,4,4,3,3,14,5.7
+US095,Re-estimate a previously estimated story,US095T13,4,3,3,4,4,20,5.3
+US095,Import stories from a spreadsheet.,US095T14,5,4,4,4,3,5,6.4
+US095,Copy/paste stories from a spreadsheet.,US095T15,4,4,4,3,3,15,5.7
+US095,Browse through previous games.,US095T16,4,3,3,4,3,21,5.2
+US095,View a transcript of a game.,US095T17,4,4,4,3,3,16,5.7
+US095,Export a transcript as an HTML file.,US095T18,4,3,3,4,3,22,5.2
+US095,Export a transcript as a CSV file.,US095T19,4,4,4,3,4,11,5.8
+US095,Delete a game.,US095T20,3,3,3,3,3,28,4.5
+US095,Create an account for the application.,US095T21,5,5,5,4,4,1,7.2
+US095,Log in using account name and password.,US095T22,5,5,5,3,3,3,6.9
+US095,Change account details.,US095T23,4,3,4,4,3,17,5.5
+US095,Delete account details.,US095T24,4,3,3,4,3,23,5.2
+US095,Show dates/times in the local timezone.,US095T25,4,4,4,4,3,8,5.9
+US095,Get a password reminder by email.,US095T26,4,4,4,4,4,7,6
+US095,Select the estimation sequence (Fibonacci or Powers of 2).,US095T27,3,4,4,4,4,18,5.5
+US095,Invite up to 15 estimators.,US095T28,4,4,4,4,3,9,5.9
+US096,"Join a game by entering my name on the page I received the URL for, so that I can participate",US096T1,5,5,5,2,2,2,6.6
+US096,"See the item were estimating, so that I know what Im giving an estimate for.",US096T2,5,5,5,3,3,1,6.9
+US096,"See all items we will try to estimate this session, so that I have a feel for the sizes of the various items.",US096T3,4,4,4,3,3,3,5.7
+US097,"Immediately see that an estimate has been given by a specific estimator, so I know who has already given an estimate and who we're still waiting for.",US097T1,5,5,5,3,3,1,6.9
+US097,"Be shown all estimates at the same time after all estimators have given their estimate, to ensure estimates are independent.",US097T2,5,5,5,3,3,2,6.9
+US097,"Be able to change my estimate up until the last person selects a card and all are shown, to adjust based on new information.",US097T3,5,4,4,3,3,4,6.2
+US097,"See each estimator's prior estimates for the story, so I can see opinion changes and ask questions.",US097T4,4,4,4,4,3,5,5.9
+US097,"See who gave what estimates during the current round, to know this during discussions.",US097T5,5,5,4,3,3,3,6.6
+US097,"Start a two-minute countdown timer visible to all participants, to limit time spent discussing estimates.",US097T6,4,4,4,3,3,7,5.7
+US097,"Have the two-minute timer reset itself when all estimates are played, so it's ready for the next round.",US097T7,4,4,4,3,3,8,5.7
+US097,"Scroll back through stories and estimates from prior rounds, to use that information for current estimates.",US097T8,4,4,4,4,3,6,5.9
+US097,"Always have cards in the same order across multiple draws, for easier estimate comparison.",US097T9,3,4,3,2,2,10,4.6
+US097,"Change my estimate as long as the draw hasn't been completed, to adjust my decision.",US097T10,4,4,4,3,3,9,5.7
+US097,"Display a thumbnail photo near where my cards are played, to make the game more personal and interactive.",US097T11,3,3,3,3,3,11,4.5
+US098,"Write a site compliant with XHTML and CSS standards, so as many people as possible can access and view it as intended.",US098T1,5,5,5,3,4,2,7
+US098,"Create a list of definitions for commonly used terms, so everyone working on the project can understand each other easily.",US098T2,4,4,4,2,2,5,5.4
+US098,"Create database indexes, so that queries run as fast as possible.",US098T3,5,5,5,3,4,3,7
+US098,"Ensure the application functions correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.",US098T4,5,5,5,4,4,1,7.2
+US098,"Ensure the site complies with W3C accessibility guidelines where possible, so people with accessibility issues can use the application.",US098T5,5,5,5,3,4,4,7
+US099,Ensure the application responds quickly to user actions to avoid boredom,US099T1,5,5,5,4,4,1,7.2
+US099,Allow the use of Unicode so that users can use any language they like,US099T2,5,5,5,3,4,2,7
+US099,"Provide sensible and predictable URLs, so that the application feels logical and transparent",US099T3,4,4,4,2,3,3,5.5
+US099,"Display nice error pages when something goes wrong, so that users can trust the system and its developers.",US099T4,4,4,4,2,3,4,5.5
+US0100,"Store results in a non-identifiable way to study data trends and ensure privacy (e.g., analyze if estimates converge).",US0100T1,5,4,5,3,4,1,6.6
+US0101,"Implement metrics to track the game's usage, including number of games played, estimators involved, etc.",US0101T1,4,3,4,3,3,1,5.3
+US0102,Show data to consumers,US0102T1,5,4,4,4,3,2,6.4
+US0102,Validate data during publishing,US0102T2,5,4,4,4,3,3,6.4
+US0102,Sign up for an account,US0102T3,3,5,3,4,3,11,5.5
+US0102,Next steps after signing up,US0102T4,3,4,3,4,3,17,5.1
+US0102,Validate data before publishing,US0102T5,5,4,4,4,3,4,6.4
+US0102,Version data package with multiple versions,US0102T6,5,5,4,4,3,1,6.8
+US0102,Preview data package via CLI,US0102T7,4,4,4,3,3,5,5.7
+US0102,Publish data package in UI,US0102T8,4,4,4,3,3,6,5.7
+US0102,See examples of published packages,US0102T9,3,3,4,3,3,23,4.8
+US0102,Create data package in UI,US0102T10,4,4,4,3,3,7,5.7
+US0102,Publish dataset (public),US0102T11,5,3,3,3,3,12,5.5
+US0102,Access previous tagged version,US0102T12,4,4,4,3,3,8,5.7
+US0102,Tag data package to create snapshot,US0102T13,4,4,4,3,3,9,5.7
+US0102,Pricing plan details,US0102T14,3,3,3,2,3,24,4.3
+US0102,Publish with registry caching,US0102T15,5,3,3,3,3,13,5.5
+US0102,Configure client,US0102T16,4,4,4,3,3,10,5.7
+US0102,Sign up for pricing plan,US0102T17,3,4,3,3,3,22,4.9
+US0102,Overwrite previous tagged data package,US0102T18,4,3,3,3,3,18,5
+US0102,Import data package,US0102T19,5,3,3,3,3,14,5.5
+US0102,Preview prepared data package,US0102T20,4,4,3,3,3,15,5.4
+US0102,Warn when overwriting tag,US0102T21,4,4,3,3,3,16,5.4
+US0102,Publish dataset (private),US0102T22,4,3,3,3,3,19,5
+US0102,Use publish command,US0102T23,4,3,3,3,3,20,5
+US0102,Private data packages,US0102T24,4,3,3,3,3,21,5
+US0102,Restore deleted package via CLI,US0102T25,2,2,2,2,2,28,3
+US0102,Permanently delete data package,US0102T26,3,3,2,3,2,25,4.1
+US0102,Unpublish data package,US0102T27,3,3,2,3,2,26,4.1
+US0102,Undelete data package,US0102T28,3,3,2,3,2,27,4.1
+US0103,Sign up via GitHub or Google to avoid entering lots of information and remembering another password.,US0103T1,5,3,4,3,3,1,5.8
+US0104,Invite Someone to Join the Platform:,US0104T1,5,4,5,2,2,3,6.2
+US0104,Set Key Configuration Parameters for Site Deployment:,US0104T2,4,3,4,3,2,4,5.2
+US0104,"See Key Metrics about Usage (Users, API Usage, Downloads",US0104T3,5,4,5,3,3,2,6.5
+US0104,Have a Pricing Plan and Billing System,US0104T4,5,5,5,4,4,1,7.2
+US0105,Know the Data is Reliable:,US0105T1,5,5,5,3,3,2,6.9
+US0105,Get Data Even if Original is Moved or Removed,US0105T2,5,5,5,4,4,1,7.2
+US0105,View Data Package Online,US0105T3,4,3,4,3,2,14,5.2
+US0105,View the Data Package for Evaluation,US0105T4,4,4,4,3,2,12,5.6
+US0105,See Download Statistics,US0105T5,4,3,4,2,2,15,5
+US0105,See Example Data Packages,US0105T6,4,3,4,2,2,16,5
+US0105,Search Data Packages:,US0105T7,5,4,5,3,3,4,6.5
+US0105,Search Based on Description,US0105T8,5,4,5,3,3,5,6.5
+US0105,Download Data Package in One File,US0105T9,5,4,5,2,3,11,6.3
+US0105,Load Data Package from R,US0105T10,4,3,4,2,2,17,5
+US0105,Know Schema Changes in Data Package,US0105T11,5,4,5,3,3,6,6.5
+US0105,Know the Age of the Data Package,US0105T12,4,3,4,2,2,18,5
+US0105,View Data Package at a Particular Version,US0105T13,5,4,5,3,3,7,6.5
+US0105,Download Data Package at a Particular Version,US0105T14,5,4,5,3,3,8,6.5
+US0105,Get Notified of Changes to a Package,US0105T15,5,5,5,2,2,3,6.6
+US0105,See Site Activity,US0105T16,4,3,4,2,2,19,5
+US0105,Browse and Find Publisher,US0105T17,4,3,4,3,3,13,5.3
+US0105,View Publisher Profile,US0105T18,5,4,5,3,3,9,6.5
+US0105,Search Data Packages Owned by a Publisher,US0105T19,5,4,5,3,3,10,6.5
+US0106,Download Data Package,US0106T1,5,5,5,3,3,1,6.9
+US0106,Update Previously Downloaded Data Package,US0106T2,5,4,5,3,3,3,6.5
+US0106,Compare Different Versions Locally,US0106T3,5,4,5,4,4,2,6.8
+US0107,Install Multiple Versions of Same Datapackage,US0107T1,5,5,5,4,4,1,7.2
+US0108,List DataPackage Requirements for Project,US0108T1,5,5,5,3,3,1,6.9
+US0108,Pin Exact Versions of DataPackages,US0108T2,5,5,5,3,3,2,6.9
+US0108,Use DataPackage as Node lib,US0108T3,5,4,5,3,4,3,6.6
+US0109,Edit Profile,US0109T1,4,3,5,2,3,6,5.4
+US0109,Invite Existing User,US0109T2,5,5,5,3,3,2,6.9
+US0109,Invite Someone via Email,US0109T3,5,5,5,3,3,3,6.9
+US0109,Remove Someone from Membership,US0109T4,5,4,5,3,3,5,6.5
+US0109,View All Members and Roles,US0109T5,4,3,4,3,2,7,5.2
+US0109,Make User an Owner,US0109T6,5,5,5,3,4,1,7
+US0109,Remove User as Owner,US0109T7,5,5,5,3,3,4,6.9
+US0110,Set Key Configuration Parameters,US0110T1,5,4,5,3,3,3,6.5
+US0110,View Key Metrics,US0110T2,5,5,5,3,3,2,6.9
+US0110,Have Pricing Plan and Billing System,US0110T3,5,5,5,4,4,1,7.2
+US0110,Invite Someone to Join Platform,US0110T4,4,3,5,2,3,4,5.4
+US0111,Set a date for data expiration and deletion,US0111T1,5,4,5,3,3,9,6.5
+US0111,Display scheduled deletion date on item and component pages,US0111T2,4,4,5,2,2,15,5.7
+US0111,Map items between collections,US0111T3,5,3,5,3,4,12,6.2
+US0111,Queue collection for replication after ingest,US0111T4,5,4,5,4,4,6,6.8
+US0111,Display summary of remote replication status,US0111T5,4,3,5,3,3,16,5.6
+US0111,Encrypt collection and replicate to remote storage,US0111T6,5,5,5,5,5,1,7.5
+US0111,Lift embargo for an object,US0111T7,4,3,4,3,2,22,5.2
+US0111,Make items available under configured permissions after embargo,US0111T8,5,5,5,4,3,2,7.1
+US0111,Create deposit forms specific to the collection,US0111T9,4,3,4,3,3,19,5.3
+US0111,Allow setting embargo date at deposit,US0111T10,4,3,4,3,3,20,5.3
+US0111,Make item metadata discoverable under embargo,US0111T11,4,3,5,3,3,17,5.6
+US0111,Allow item access under set permissions after embargo,US0111T12,5,5,5,4,3,3,7.1
+US0111,Perform author authority control,US0111T13,5,3,5,4,4,11,6.4
+US0111,Move items between collections,US0111T14,4,3,5,3,3,18,5.6
+US0111,Display dashboard widget for recent submission,US0111T15,4,3,4,3,3,21,5.3
+US0111,Propagate metadata changes to EZID,US0111T16,5,4,5,3,4,7,6.6
+US0111,Canonically identify authors and creators by unique ID,US0111T17,5,3,5,3,3,13,6.1
+US0111,See referers for resolver-abstracted links,US0111T18,3,3,4,3,2,24,4.7
+US0111,Create user groups for permissions management,US0111T19,5,4,5,3,3,10,6.5
+US0111,Restrict access to collection/items to Duke IP addresses,US0111T20,5,5,5,4,3,4,7.1
+US0111,Allow users to contact curator for restricted access,US0111T21,4,3,4,3,2,23,5.2
+US0111,Change permissions on multiple items simultaneously,US0111T22,5,4,5,3,4,8,6.6
+US0111,Require authentication for object access (except whitelisted IPs),US0111T23,5,5,5,4,3,5,7.1
+US0111,View permissions on all objects together,US0111T24,4,4,5,3,3,14,6
+US0112,Track financial responsibility for each item,US0112T1,5,5,5,4,4,1,7.2
+US0112,Run periodic report on storage consumed by financial contact,US0112T2,5,4,5,3,4,5,6.6
+US0112,Specify remote replication policy for each collection,US0112T3,5,4,5,4,4,4,6.8
+US0112,"Elect to replicate remotely or not, and replicate beyond primary site",US0112T4,5,5,5,4,4,2,7.2
+US0112,"View authenticated, active users and anonymous users",US0112T5,4,3,5,2,3,8,5.4
+US0112,Schedule message to users for notification of upcoming downtime,US0112T6,4,3,4,3,3,9,5.3
+US0112,Display recent errors for easy comprehension,US0112T7,5,4,5,3,3,6,6.5
+US0112,View dashboard statistics about collections and storage,US0112T8,5,5,5,3,4,3,7
+US0112,View available versions of an object and restore a version,US0112T9,5,4,5,3,3,7,6.5
+US0113,Add a date delimiter to a search string,US0113T1,5,5,5,4,3,1,7.1
+US0113,Go to repository dashboard to manage members,US0113T2,5,4,5,3,4,3,6.6
+US0113,Grant submit permissions by pasting in NetID list,US0113T3,5,5,5,3,3,2,6.9
+US0113,See confirmation that DDR recognizes NetIDs,US0113T4,4,4,4,2,3,4,5.5
+US0114,Determine if we can use the in-built Fedora 4 event audit services,US0114T1,5,4,4,3,4,2,6.3
+US0114,Upgrade to Fedora 4 and migrate our applications and data,US0114T2,5,5,5,5,5,1,7.5
+US0115,Create an event when a publication is published.,US0115T1,5,4,5,3,3,1,6.5
+US0115,Create an event when a publication is unpublished.,US0115T2,5,4,5,3,3,2,6.5
+US0115,Record the user who published or unpublished the publication.,US0115T3,5,4,5,2,2,3,6.2
+US0115,Add a comment field to capture the reason for publication change (published/unpublished).,US0115T4,5,3,4,2,2,5,5.5
+US0115,"Store the event details (user, comment, timestamp) in a log or database",US0115T5,5,3,4,3,3,4,5.8
+US0115,Provide an interface to view the event logs (for auditing purposes).,US0115T6,4,3,4,3,3,6,5.3
+US0116,"Symplectic Elements bidirectionally communicate and integrate with DDR, which provides a Fedora Connector.",US0116T1,5,5,5,4,4,1,7.2
+US0116,"Users presented with a license or selection of licenses specific to the collection, and deposit denied if not accepted.",US0116T2,5,5,5,3,4,4,7
+US0116,License recorded in metadata and displayed alongside the item.,US0116T3,5,4,5,3,3,5,6.5
+US0116,Expose repository contents via OAI-PMH (Auditing & Reporting).,US0116T4,5,4,4,3,3,7,6.2
+US0116,Provide continued access to the repository in the event of server failure.,US0116T5,5,5,4,5,4,3,7.1
+US0116,Provide the server SLA to data contributors.,US0116T6,5,4,4,3,2,8,6.1
+US0116,Update the repository index without disrupting access to the public interface.,US0116T7,5,4,4,4,3,6,6.4
+US0116,Provide a Linked Data interface to the repository.,US0116T8,4,3,4,3,4,9,5.4
+US0116,Symplectic Elements bidirectionally communicate with the repository.,US0116T9,5,5,5,4,4,2,7.2
+US0117,Batch ingest ETDs received from ProQuest.,US0117T1,5,5,5,4,4,1,7.2
+US0117,"Batch ingest tool to recognize and set embargoes, permissions for embargoed items should allow metadata access and downloads.",US0117T2,5,5,5,4,3,2,7.1
+US0117,Repository to lift embargoes on the release date and set access controls.,US0117T3,5,5,4,4,4,4,6.9
+US0117,Display embargo status and release date clearly for visitors.,US0117T4,4,3,4,3,3,9,5.3
+US0117,"Method to add/remove multiple people to deposit groups, set deposit window closing date, and assign permissions.",US0117T5,5,5,5,4,3,3,7.1
+US0117,Edit the length of embargoes.,US0117T6,4,3,4,3,3,10,5.3
+US0117,Expose the descriptive record for each ETD item for re-use external to Fedora.,US0117T7,4,4,4,4,3,7,5.9
+US0117,Grant embargo privileges to other repository administrators.,US0117T8,5,4,4,3,3,5,6.2
+US0117,Method to add and remove individual people from deposit groups.,US0117T9,4,4,4,3,3,8,5.7
+US0117,View and download summary embargo metadata for all ETDs in the repository.,US0117T10,4,4,5,3,3,6,6
+US0118,See the embargo status and release date clearly displayed and perhaps highlighted.,US0118T1,4,3,4,3,3,1,5.3
+US0119,Refer to the Disaster Recovery Plan in grant proposals and Data Management Plans.,US0119T1,4,3,4,2,2,1,5
+US0120,"Get feedback post-ingest alerting me if files I submitted do not conform to their format specifications, if they are not valid, or if they are not wellformed.",US0120T1,5,5,4,3,3,1,6.6
+US0120,See what kinds of things the repository accepts and what formats are accepted and recommended.,US0120T2,4,3,4,2,2,3,5
+US0120,"Easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.",US0120T3,5,4,5,3,2,2,6.4
+US0121,Access documentation describing the folder ingest process.,US0121T1,4,4,4,2,3,2,5.5
+US0121,"Provide my data and metadata in a simple, documented format to the repository staff for ingest.",US0121T2,5,5,4,3,3,1,6.6
+US0122,Enter and exit the superuser scope.,US0122T1,5,5,5,3,2,1,6.8
+US0123,Prevent submitters from modifying existing items in the collection.,US0123T1,5,4,5,3,3,1,6.5
+US0124," describe their team and individual objects in the repository after deposit, if permitted to edit metadata.",USA124T1,4,3,5,3,3,1,5.6
+US0125,Include dataset type code in the app artifact and create a dataset when deploying.,US0125T1,5,4,5,3,3,9,6.5
+US0125,Deploy new version of dataset type with app and ensure all instances use new code.,US0125T2,5,4,5,4,4,4,6.8
+US0125,Deploy new version without affecting other datasets of the same type.,US0125T3,4,4,5,3,4,11,6.1
+US0125,Explore a dataset instance deployed as part of an app.,US0125T4,3,3,4,2,3,17,4.6
+US0125,Ensure no dataset types are created when deploying an artifact without an app.,US0125T5,4,4,5,3,2,12,5.9
+US0125,Share dataset type across multiple apps including its code in their artifacts.,US0125T6,5,4,5,3,4,6,6.6
+US0125,"Ensure new app version with shared dataset type affects only new instances, not others.",US0125T7,5,4,5,3,4,7,6.6
+US0125,"Ensure new app version uses dataset type code included, even if it's an older version from another app.",US0125T8,5,4,5,4,3,5,6.7
+US0125,Prevent app deployment if dataset versions conflict when sharing dataset instance across apps.,US0125T9,5,5,5,4,4,2,7.2
+US0125,Share previously deployed dataset type as part of an app.,US0125T10,4,3,4,3,3,15,5.3
+US0125,Depend on dataset type interface and inject implementation at runtime.,US0125T11,4,3,5,4,3,13,5.8
+US0125,Write unit tests for app depending on dataset type interface.,US0125T12,4,3,5,3,2,14,5.5
+US0125,Create dataset instance with specific version of dataset type,US0125T13,5,3,5,4,4,10,6.4
+US0125,Ensure all Hydrator pipeline datasets are accessible to the app.,US0125T14,5,4,5,3,4,8,6.6
+US0125,"Perform custom administrative operations on dataset instances from app, CLI, REST, or UI.",US0125T15,4,3,4,3,3,16,5.3
+US0125,Ensure app creation fails if any dataset cannot be created,US0125T16,5,5,5,4,5,1,7.3
+US0125,Ensure redeployment fails if any dataset cannot be reconfigured.,US0125T17,5,5,5,4,4,3,7.2
+US0125,Tolerate existing datasets with compatible but different properties when creating a new dataset.,US0125T18,3,3,4,2,3,18,4.6
+US0126,Deploy dataset type independent of app,US0126T1,5,4,4,3,4,5,6.3
+US0126,Force dataset code injection at runtime,US0126T2,4,3,4,3,3,10,5.3
+US0126,Have archetype for packaging dataset type,US0126T3,4,3,3,2,2,12,4.7
+US0126,Separate interface from implementation,US0126T4,4,4,4,3,3,8,5.7
+US0126,Assign explicit versions to dataset code,US0126T5,5,3,4,3,3,7,5.8
+US0126,Deploy new version without affecting instances,US0126T6,5,4,5,4,4,1,6.8
+US0126,Explore dataset instance created independently,US0126T7,4,2,3,2,3,13,4.4
+US0126,Delete outdated versions if no active instances,US0126T8,3,3,2,2,3,14,4
+US0126,List all dataset instances of a type/version,US0126T9,4,3,4,3,2,11,5.2
+US0126,Implement upgrade steps for dataset instances,US0126T10,5,4,5,3,3,4,6.5
+US0126,Reject incompatible upgrade of dataset instance,US0126T11,4,4,5,3,3,6,6
+US0126,Implement migration after upgrade,US0126T12,4,3,4,3,4,9,5.4
+US0126,Take dataset offline for maintenance,US0126T13,4,5,5,4,4,2,6.7
+US0126,Implement custom administrative operations,US0126T14,5,4,5,3,4,3,6.6
+US0127,Create a pipeline that reads/writes an existing dataset instance,US0127T1,5,4,5,3,3,3,6.5
+US0127,Create a pipeline that reads/writes a new dataset instance as part of pipeline creation,US0127T2,5,4,5,4,4,1,6.8
+US0127,Specify explicit version for dataset types and fail on incompatible upgrade,US0127T3,4,5,5,4,4,2,6.7
+US0127,Explore datasets created by the pipeline,US0127T4,4,3,4,3,3,5,5.3
+US0127,Ensure all dataset instances created by apps are available as pipeline sources/sinks,US0127T5,5,4,5,3,3,4,6.5
+US0128,"Include dataset type code in the plugin artifact to create, explore, and make datasets available to apps",US0128T1,5,4,5,4,4,2,6.8
+US0128,Use a custom dataset type deployed independently or as part of an app in the plugin,US0128T2,4,3,4,3,3,3,5.3
+US0128,Upgrade dataset type code and update the pipeline when deploying a new plugin version,US0128T3,5,5,5,4,4,1,7.2
+US0129,Upgrade a dataset instance to a newer version of the code after the pipeline was created,US0129T1,5,4,5,4,4,1,6.8
+US0130,"Find out supported properties, allowed values, and defaults for dataset types",US0130T1,4,4,4,3,3,12,5.7
+US0130,Specify the schema of a dataset in a uniform way across all types,US0130T2,5,4,5,4,3,6,6.7
+US0130,Specify schema as a JSON string,US0130T3,5,3,4,3,2,13,5.7
+US0130,Specify schema as a SQL schema string,US0130T4,5,3,4,3,2,14,5.7
+US0130,Configure time-to-live in a uniform way across all dataset types,US0130T5,4,4,4,3,3,15,5.7
+US0130,View the properties used to configure a dataset instance,US0130T6,4,4,5,2,3,11,5.8
+US0130,Find out which properties of a dataset can be updated,US0130T7,4,4,4,3,3,16,5.7
+US0130,"Update the properties of a dataset instance, fail on incompatibility, and show an error",US0130T8,4,5,5,4,4,5,6.7
+US0130,Update a single property of a dataset instance without knowing all others,US0130T9,4,4,4,3,3,17,5.7
+US0130,Remove a single property of a dataset instance without knowing all others,US0130T10,4,4,4,3,3,18,5.7
+US0130,Trigger a migration process if updating dataset properties requires it,US0130T11,4,4,4,4,4,7,6
+US0130,Ensure failed reconfiguration leaves the dataset unchanged (atomic action),US0130T12,5,5,5,5,4,1,7.4
+US0130,"Specify dataset configuration for ""explorable""",US0130T13,4,3,4,3,3,19,5.3
+US0130,Specify explore schema separately,US0130T14,4,3,4,3,3,20,5.3
+US0130,Ensure dataset creation fails if not enabled for explore,US0130T15,4,4,4,4,4,8,6
+US0130,Ensure dataset reconfiguration fails if explore table update fails,US0130T16,5,5,5,5,4,2,7.4
+US0130,Ensure dataset operation fails if explore-related changes fail,US0130T17,5,5,5,5,4,3,7.4
+US0130,Prevent silent loss of data when updating explore,US0130T18,5,5,5,5,4,4,7.4
+US0130,Enable explore for a dataset not initially configured for explore,US0130T19,4,4,4,4,4,9,6
+US0130,Disable explore for a dataset initially configure,US0130T20,4,4,4,4,4,10,6
+US0131,Get a meaningful error message when pipeline creation fails due to dataset incompatibility with schema or other properties,US0131T1,5,5,5,4,4,1,7.2
+US0132,Run a script that installs the Neurohub node onto a virgin Ubuntu operating system,US0132T1,5,5,5,3,3,2,6.9
+US0132,Run a script that tests to see if a Neurohub installation is functioning correctly,US0132T2,5,4,5,3,3,3,6.5
+US0132,Have a managed backup protocol for the system,US0132T3,5,5,5,4,4,1,7.2
+US0132,Migrate data from an older version of NeuroHub to the current version,US0132T4,4,4,4,5,5,4,6.3
+US0133,Call a script to execute acceptance tests against a Neurohub installation and report back the results,US0133T1,5,5,5,3,3,2,6.9
+US0133,"Configure nightly builds that install Neurohub on a virgin OS, execute tests, and report results without manual input",US0133T2,5,5,5,4,4,1,7.2
+US0134,View acceptance test results to understand how feature-complete the Neurohub node currently is,US0134T1,4,4,4,3,2,1,5.6
+US0135,Digitally record subject responses from paper-based forms,US0135T1,3,4,4,3,3,1,5.2
+US0136,Theme the web interface graphics/colours,US0136T1,2,3,4,2,2,4,4
+US0136,Provide increased access to the system to support regular users,US0136T2,4,5,5,3,3,2,6.4
+US0136,Create page templates with bespoke metadata fields,US0136T3,3,4,4,3,3,3,5.2
+US0136,Manage worm strain stocks integrated with Wormbase,US0136T4,5,4,5,4,4,1,6.8
+US0137,View what my researchers were doing on a given date or period of time,US0137T1,4,4,5,3,3,1,6
+US0137,Create feedback forms within Neurohub for students to provide feedback about the course attended,US0137T2,3,3,4,2,2,2,4.5
+US0138,View events and equipment bookings within the group,US0138T1,4,3,4,2,2,1,5
+US0139,Harvest knowledge from within the group to learn from more experienced researchers,US0139T1,5,4,5,3,3,1,6.5
+US0140,Navigate forwards and backwards between log books and pages without browser's back button,US0140T1,4,3,4,2,2,30,5
+US0140,Upload large files over 1GB in size,US0140T2,5,5,5,4,4,1,7.2
+US0140,Assign tags to uploaded files,US0140T3,3,3,4,2,2,34,4.5
+US0140,Assign bespoke information to a file depending on its type,US0140T4,4,4,4,3,3,10,5.7
+US0140,Filter files from search results based on type,US0140T5,3,3,3,2,2,41,4.2
+US0140,Use controlled vocabulary for tags,US0140T6,4,4,4,3,3,11,5.7
+US0140,Make uploaded data files non-modifiable,US0140T7,5,5,5,3,3,2,6.9
+US0140,Make predicated links between files,US0140T8,3,4,4,2,3,32,5
+US0140,Restrict what can be entered into a metadata field,US0140T9,3,3,3,3,2,37,4.4
+US0140,Restore files that might be accidentally deleted,US0140T10,5,5,5,2,3,5,6.7
+US0140,Revert to an older version of an uploaded file,US0140T11,4,4,4,3,3,12,5.7
+US0140,View uploaded files visually over time,US0140T12,3,3,3,3,3,35,4.5
+US0140,Associate files involved in an experiment,US0140T13,4,4,4,2,3,19,5.5
+US0140,Enter metadata/describe an experiment protocol before a file is created,US0140T14,4,4,4,3,3,13,5.7
+US0140,Link experimental runs to build an experiment,US0140T15,5,5,5,3,3,3,6.9
+US0140,Capture the same metadata for each file in an experimental run,US0140T16,4,3,4,2,3,27,5.1
+US0140,Search and download human-readable experimental protocols,US0140T17,4,3,4,3,3,25,5.3
+US0140,"Modify or branch an experimental protocol, retaining the original",US0140T18,4,3,4,2,3,28,5.1
+US0140,View how an experimental protocol evolved over time,US0140T19,4,3,4,3,3,26,5.3
+US0140,Create protocol and assign metadata to any stag,US0140T20,3,3,3,2,3,39,4.3
+US0140,Prove definitively creation date of a page,US0140T21,3,3,3,3,2,38,4.4
+US0140,Manage references/papers investigated,US0140T22,4,3,4,2,3,29,5.1
+US0140,"Search specifically for files, not logbook pages",US0140T23,3,3,3,2,2,42,4.2
+US0140,Limit search to specific log books,US0140T24,3,3,3,2,2,43,4.2
+US0140,Limit search results to log book sections,US0140T25,3,3,3,2,2,44,4.2
+US0140,Download files directly from the search results page,US0140T26,4,4,4,3,3,14,5.7
+US0140,See provenance of a page in search results,US0140T27,4,3,4,2,2,31,5
+US0140,Attach multiple files at once to a log book page,US0140T28,4,4,4,2,2,23,5.4
+US0140,Download multiple files from search results in one go,US0140T29,4,4,4,3,2,18,5.6
+US0140,Draw tables using HTML tags in log book pages,US0140T30,3,3,3,4,2,33,4.6
+US0140,Store worm behavior videos with an encoding that is analyzable by the analysis software,US0140T31,4,4,5,2,4,9,5.9
+US0140,Forward important news items to an external mailing list,US0140T32,3,3,3,2,2,45,4.2
+US0140,View and update equipment and consumables inventory,US0140T33,4,4,4,2,3,20,5.5
+US0140,Host a collaborative spreadsheet for proposals,US0140T34,4,4,4,2,3,21,5.5
+US0140,Push content to Twitter simultaneously with posting on Neurohub,US0140T35,3,3,3,3,3,36,4.5
+US0140,Keep logbook entries private or share with specific individuals,US0140T36,5,5,5,3,3,4,6.9
+US0140,Record workflow execution details in a log book,US0140T37,4,4,4,2,2,24,5.4
+US0140,Show Twitter tweets in Neurohub for others to see,US0140T38,3,3,3,2,3,40,4.3
+US0140,View shared calendars via Neurohub and mobile,US0140T39,4,4,4,2,3,22,5.5
+US0140,Sync events with a web-based calendar like Google Calendar,US0140T40,4,4,4,3,3,15,5.7
+US0140,Move multiple files and rearrange them in Neurohub file browser,US0140T41,4,4,4,3,3,16,5.7
+US0140,Electronically share papers and notes with other researchers,US0140T42,4,4,4,3,3,17,5.7
+US0140,Ensure existing metadata is not lost when moving a file,US0140T43,5,5,5,2,3,6,6.7
+US0140,Keep data private and only share data when deemed appropriate,US0140T44,5,5,5,2,3,7,6.7
+US0140,Change sharing and ownership of multiple files,US0140T45,5,5,5,2,3,8,6.7
+US0141,Create a log book page for an experiment and attach a file,US0141T1,5,4,5,3,3,18,6.5
+US0141,Create a log book page for an experiment and attach a directory with multiple files,US0141T2,5,4,5,4,3,16,6.7
+US0141,Upload files prior to attaching them to a log book page,US0141T3,4,3,4,2,2,36,5
+US0141,Upload files prior to attaching them to a log book page using the web interface,US0141T4,4,3,4,2,2,37,5
+US0141,Upload files prior to attaching them to a log book page using a mapped network drive,US0141T5,4,3,4,2,2,38,5
+US0141,Attach currently non-attached files to a log book page,US0141T6,5,4,5,3,3,19,6.5
+US0141,Receive an alert of unattached files in my workspace,US0141T7,4,4,4,2,2,27,5.4
+US0141,Download files attached to an experiment using a web browser,US0141T8,4,3,4,2,2,39,5
+US0141,Access files stored in the Neurohub workspace using a network drive,US0141T9,5,3,5,3,3,20,6.1
+US0141,Create a log book page,US0141T10,5,5,5,2,2,17,6.6
+US0141,Insert Greek symbols into logbook entries,US0141T11,3,3,3,2,2,40,4.2
+US0141,Point Mendeley client to a group-wide shared repository and receive notifications,US0141T12,4,3,4,3,3,28,5.3
+US0141,Keep track of data sets used/output/modified as part of an experiment,US0141T13,5,5,5,4,4,1,7.2
+US0141,Support long-term curation of data to avoid data loss,US0141T14,5,5,5,3,3,3,6.9
+US0141,Timeline display of data files and associated images for comparison,US0141T15,4,3,4,3,3,29,5.3
+US0141,Remote access to data for off-site work,US0141T16,5,5,5,3,4,2,7
+US0141,Share post-experiment write-ups with other researchers,US0141T17,4,3,4,3,3,30,5.3
+US0141,Collect data as a library to be used by multiple experiments,US0141T18,5,4,5,4,4,11,6.8
+US0141,Indicate good/bad data and hide bad data while keeping it in the system,US0141T19,4,3,4,2,3,35,5.1
+US0141,Provide standard metadata for better data understanding,US0141T20,5,5,5,3,3,4,6.9
+US0141,Annotate physiology images with standard metadata for later search and understanding,US0141T21,4,4,4,3,3,21,5.7
+US0141,Attach standard metadata for behavioural observations (and video),US0141T22,4,4,4,3,3,22,5.7
+US0141,Attach standard metadata for drug responses,US0141T23,4,4,4,3,3,23,5.7
+US0141,Search for images of cells using standard metadata,US0141T24,4,4,4,3,3,24,5.7
+US0141,Automatically insert some metadata when new data is added,US0141T25,4,3,4,3,3,31,5.3
+US0141,Attach detailed metadata to data and entries,US0141T26,5,5,5,3,3,5,6.9
+US0141,Select a pre-populated template with commonly entered metadata for new data,US0141T27,4,4,4,3,2,26,5.6
+US0141,"Form links between objects (e.g., File A is an analysis of File B)",US0141T28,5,4,5,4,4,12,6.8
+US0141,"Locate experiment files using metadata, regardless of location",US0141T29,5,5,5,3,3,6,6.9
+US0141,Protect data written to the VRE from modification or deletion,US0141T30,5,5,5,3,3,7,6.9
+US0141,Store all experiment inputs for provenance verification,US0141T31,5,5,5,3,3,8,6.9
+US0141,Search for files by type and format,US0141T32,4,3,4,3,3,32,5.3
+US0141,Bulk upload directories and files with minimal effort,US0141T33,5,4,5,4,4,13,6.8
+US0141,Associate metadata to the group as a whole after bulk upload,US0141T34,4,4,4,3,3,25,5.7
+US0141,Restrict data sharing to specific researchers or groups,US0141T35,5,5,5,2,3,15,6.7
+US0141,Locate and access data shared by colleagues,US0141T36,4,3,4,3,3,33,5.3
+US0141,Interact with a revision control system to track changes to files,US0141T37,5,4,5,4,4,14,6.8
+US0141,Secure remote access to Neurohub node when working away from the lab,US0141T38,5,5,5,3,3,9,6.9
+US0141,Group-level repository for sharing papers/reviews/comments,US0141T39,4,3,4,3,3,34,5.3
+US0141,"Record workflow plan, execution history, and results in Neurohub",US0141T40,5,5,5,3,3,10,6.9
+US0142,Have a videophone,US0142T1,4,3,4,2,2,18,5
+US0142,Have a simple ALFRED unit expandable in functions,US0142T2,5,5,5,3,4,2,7
+US0142,Use video calls in case of emergency,US0142T3,5,5,5,2,2,5,6.6
+US0142,Be able to see if the patient has taken her medicine,US0142T4,5,5,5,3,3,3,6.9
+US0142,Ensure the user can decide who has access to her data,US0142T5,5,5,5,3,3,4,6.9
+US0142,ALFRED determines the user's blood pressure,US0142T6,5,4,5,3,4,7,6.6
+US0142,ALFRED determines the user's body temperature,US0142T7,5,4,5,3,4,8,6.6
+US0142,ALFRED determines the user's heart rate,US0142T8,5,4,5,3,4,9,6.6
+US0142,ALFRED determines the user's breathing frequency,US0142T9,5,4,5,3,4,10,6.6
+US0142,Have feedback on the activity level of the user,US0142T10,4,3,4,3,3,16,5.3
+US0142,Locate the ALFRED user,US0142T11,5,5,5,2,2,6,6.6
+US0142,ALFRED reminds people to exercise regularly,US0142T12,4,3,4,3,3,17,5.3
+US0142,ALFRED offers training for specific muscle groups,US0142T13,4,4,4,3,3,14,5.7
+US0142,"ALFRED proposes games combining mental and physical exercises (e.g., opposing motion exercises of arms and legs)",US0142T14,4,4,4,4,3,12,5.9
+US0142,Control if the user does the exercise correctly,US0142T15,4,4,4,4,3,13,5.9
+US0142,Have a regular summary of how much exercise the user performs,US0142T16,4,4,4,3,3,15,5.7
+US0142,ALFRED proposes training that promotes complex thinking,US0142T17,4,4,4,4,4,11,6
+US0142,"Provide corrective feedback if exercises are performed incorrectly, excessively, or harmfully",US0142T18,5,5,5,4,4,1,7.2
+US0143,ALFRED reminds the SocialCaregiver of items to bring for the person they care fo,US014371,4,4,4,2,2,3,5.4
+US0143,ALFRED recognizes pain and/or stress using skin conduction sensors,US014372,5,5,5,4,4,1,7.2
+US0143,A step counter included in ALFRED,US014373,4,4,4,2,3,2,5.5
+US0144,ALFRED reminds the SocialCaregiver of items to bring for the person they care for,US0144T1,4,4,4,2,2,4,5.4
+US0144,ALFRED recognizes pain and/or stress using skin conduction sensors,US0144T2,5,5,5,4,4,1,7.2
+US0144,A step counter included in ALFRED,US0144T3,4,4,4,2,3,3,5.5
+US0144,"A game for the carer and user to play together, enabling health monitoring and fun time",US0144T4,5,4,5,3,4,2,6.6
+US0145,Present my app to as many people as possible,US0145T1,5,4,5,3,3,8,6.5
+US0145,Simplify and clarify accounting,US0145T2,4,3,4,3,2,14,5.2
+US0145,Easily create and maintain apps within the marketplace,US0145T3,5,5,5,3,4,5,7
+US0145,Enable customers to provide feedback and easily monitor it,US0145T4,4,4,5,3,3,10,6
+US0145,Manage pricing modality of apps,US0145T5,4,3,4,3,2,15,5.2
+US0145,Have a well-defined and well-documented API,US0145T6,5,5,5,3,3,6,6.9
+US0145,Obtain app development support,US0145T7,4,4,5,3,3,11,6
+US0145,Know the marketplace providers fees,US0145T8,4,4,4,2,2,13,5.4
+US0145,Be notified as soon as app state changes,US0145T9,4,5,5,3,3,9,6.4
+US0145,Get detailed crash information for my app,US0145T10,5,5,5,4,4,1,7.2
+US0145,Present my app in several ways,US0145T11,4,3,4,2,2,16,5
+US0145,Design my app independently with defined rules,US0145T12,4,3,4,2,2,17,5
+US0145,Define user-asked questions easily,US0145T13,3,3,3,2,3,18,4.3
+US0145,Grant my app access to operating system features,US0145T14,5,5,5,4,4,2,7.2
+US0145,Work with high-level API components,US0145T15,5,5,5,4,4,3,7.2
+US0145,Read data from user-worn health sensors easily,US0145T16,5,5,5,4,4,4,7.2
+US0145,Provide an easy way to manage user settings,US0145T17,4,4,4,3,3,12,5.7
+US0145,Use the ALFRED API to reduce workload,US0145T18,5,5,5,2,3,7,6.7
+US0146,Take control over some functions to provide the desired user experience,US0146T1,5,5,5,4,3,1,7.1
+US0147,Know exactly what ALFRED does with personal data and share only with specific permission,US0147T1,5,5,5,4,4,1,7.2
+US0147,Use speech technology for interaction,US0147T2,5,5,5,4,3,6,7.1
+US0147,Use only well-visible buttons,US0147T3,4,5,4,3,2,17,6
+US0147,Always keep control on ALFREDs activities,US0147T4,5,4,5,4,3,9,6.7
+US0147,Receive preinstalled ALFRED setup,US0147T5,4,4,4,3,3,20,5.7
+US0147,Use ALFRED on wearable devices (bracelet or necklace),US0147T6,5,4,5,3,3,12,6.5
+US0147,Customize preferences and privacy settings,US0147T7,5,5,5,4,4,2,7.2
+US0147,"Receive reminders for medicine, appointments, or things to bring when leaving",US0147T8,5,5,5,3,3,7,6.9
+US0147,"Control smart devices (e.g., lights, heating, TV, door)",US0147T9,4,4,4,4,3,18,5.9
+US0147,"Contact caregivers, family, or emergency services with one button",US0147T10,5,5,5,3,2,8,6.8
+US0147,"Use ALFRED for navigation, touristic walks, or public transport assistance",US0147T11,5,4,4,4,3,13,6.4
+US0147,"Provide health tips, exercise motivation, and specific training",US0147T12,5,5,5,4,4,3,7.2
+US0147,Detect falls and contact emergency services,US0147T13,5,5,5,4,4,4,7.2
+US0147,"Receive visual support (e.g., maps, agenda)",US0147T14,4,4,4,3,3,21,5.7
+US0147,Video communication with family and friends,US0147T15,5,4,4,4,3,14,6.4
+US0147,Use ALFRED for social group management,US0147T16,4,3,4,3,2,24,5.2
+US0147,Use ALFRED for grocery shopping,US0147T17,5,4,4,4,3,15,6.4
+US0147,Receive personalized social activity invitations,US0147T18,4,4,4,4,3,19,5.9
+US0147,Receive tips on body posture and reducing impairments without medication,US0147T19,5,5,5,4,4,5,7.2
+US0147,Organize meetings or group events,US0147T20,4,4,4,3,3,22,5.7
+US0147,Play games for mental and physical exercise,US0147T21,5,4,4,4,3,16,6.4
+US0147,Use ALFRED for emergency notifications about low battery,US0147T22,4,4,4,3,2,23,5.6
+US0147,Maintain contact lists and messaging,US0147T23,5,4,5,4,3,10,6.7
+US0147,Receive day-and-night rhythm support with agenda reminders,US0147T24,5,4,5,4,3,11,6.7
+US0148,View a list of sponsors so that I can thank all the awesome sponsors.,US0148T1,4,3,5,2,2,21,5.3
+US0148,View a list of user profiles so that I know who is attending the conference.,US0148T2,4,3,4,2,3,23,5.1
+US0148,"Have a dedicated page for each class with details like logo, trainers, location, time, skill level, and registration link.",US0148T3,5,5,5,4,3,1,7.1
+US0148,"Clearly mark training options with details such as day and time, title, summary, trainers, location, and registration link.",US0148T4,5,5,5,4,3,2,7.1
+US0148,Have a training landing page with an intro section and a list of all training offerings.,US0148T5,5,5,5,4,3,3,7.1
+US0148,Provide a link on the home page to a list of training options.,US0148T6,4,4,4,2,2,20,5.4
+US0148,Find out where the coding lounge is and what time it is open.,US0148T7,3,3,3,2,2,27,4.2
+US0148,See a list of attendees associated with a specific sponsor company.,US0148T8,4,3,4,3,3,22,5.3
+US0148,View venue details to get a sense of the location and see the events happening there.,US0148T9,4,4,4,3,3,18,5.7
+US0148,See a list of sessions associated with sponsor attendees to engage with sponsors and thought leaders.,US0148T10,5,4,5,4,3,7,6.7
+US0148,"See all events, trainings, and summits that a sponsor is sponsoring to engage with sponsors and thought leaders.",US0148T11,5,4,5,4,3,8,6.7
+US0148,Sign up for the BADCamp newsletter to stay up to date with the latest communications.,US0148T12,4,3,4,1,2,26,4.8
+US0148,Read the blog to stay informed about all the latest happenings with BADCamp.,US0148T13,4,4,5,1,2,19,5.5
+US0148,See how many seats are left for the summit to register in-time to reserve a spot.,US0148T14,5,5,5,3,2,6,6.8
+US0148,See specific details on summits to determine if they match interests and help with day-of logistics.,US0148T15,5,5,5,4,3,4,7.1
+US0148,See a list of all the summits to determine which one to attend.,US0148T16,5,4,5,3,3,11,6.5
+US0148,Learn about sponsorship levels to determine the right level for an organization.,US0148T17,4,4,5,2,3,16,5.8
+US0148,Learn about posting jobs as a sponsor and contact the sponsorship person for job listings.,US0148T18,4,4,5,3,3,15,6
+US0148,See the schedule to plan the day and figure out where to go.,US0148T19,5,4,4,3,3,13,6.2
+US0148,See the final list of sessions approved to know what's going on at BADCamp.,US0148T20,5,4,5,4,3,9,6.7
+US0148,Receive a notification when sessions have been evaluated to know if accepted or rejected.,US0148T21,4,3,4,2,2,24,5
+US0148,Receive a notification when a session is submitted to confirm the submission went through.,US0148T22,4,3,4,2,2,25,5
+US0148,Register to speak at BADCamp by submitting a session.,US0148T23,5,5,5,4,2,5,7
+US0148,See a list of all summits with their timings to choose which to attend,US0148T24,5,4,5,3,3,12,6.5
+US0148,Easily find a link in the menu to the registration form for easy access to sign up.,US0148T25,5,4,5,2,2,14,6.2
+US0148,Fill out a user registration form to register for the camp and get an account.,US0148T26,5,5,5,2,2,10,6.6
+US0148,Find session information to attend relevant sessions.,US0148T27,4,4,5,2,3,17,5.8
+US0149,"Email all the trainers at once from the website for info and updates, so that it is easier to use",US0149T1,5,5,5,3,3,3,6.9
+US0149,"Have an admin view to track registration status for each attendee, so that we can see if they attended, refunded, or no-showed.",US0149T2,5,5,5,4,4,1,7.2
+US0149,Tie in a cancellation deadline to the registration/cancellation workflow to avoid losing money or spots.,US0149T3,5,5,5,3,4,2,7
+US0149,"Have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see what's happening.",US0149T4,5,4,5,3,4,4,6.6
+US0150,"Have a very clear map showing buildings and rooms, so that I can make it to class on time.",US0150T1,5,5,5,3,3,2,6.9
+US0150,"Be added to a training waitlist, so that I can be considered for a class.",US0150T2,4,4,4,3,3,5,5.7
+US0150,"Register for a summit, so that I can reserve my seat at the summit.",US0150T3,5,5,5,3,3,3,6.9
+US0150,"Get detailed directions to the summit venue, so that I can get to the summit easily on the day of the event.",US0150T4,5,4,5,2,3,4,6.3
+US0150,"See what summits I'm signed up for, so that I can confirm my attendance and prevent double-booking with another class or summit.",US0150T5,5,5,5,3,4,1,7
+US0151,Edit my training node myself,US0151T1,5,4,5,3,3,2,6.5
+US0151,View all attendee information linked to training,US0151T2,5,4,5,4,3,1,6.7
+US0152,Limit to one registration per day per authenticated user,US0152T1,5,5,5,3,3,1,6.9
+US0152,Must accept the cancellation terms with a checkbox,US0152T2,4,4,4,2,2,4,5.4
+US0152,"Add to ""my schedule"" if there is a schedule feature",US0152T3,4,3,5,3,2,3,5.5
+US0152,See which trainings I have signed up for,US0152T4,5,4,5,3,2,2,6.4
+US0153,Find a link on the sponsorships page to become a $350 level sponsor,US0153T1,5,5,5,2,2,2,6.6
+US0153,Identify myself and pay for a $350 company sponsorship,US0153T2,5,5,5,3,3,1,6.9
+US0153,See a payment page to pay for my individual sponsorship,US0153T3,5,4,5,3,2,4,6.4
+US0153,Enter payment information and have my card charged for an individual sponsorship,US0153T4,5,5,5,2,2,3,6.6
+US0153,Update my user profile,US0153T5,4,3,5,2,2,9,5.3
+US0153,Use a WYSIWYG editor for all long-form content,US0153T6,4,3,5,3,2,8,5.5
+US0153,View the job board,US0153T7,3,3,4,2,1,10,4.4
+US0153,Edit my session,US0153T8,4,4,5,2,1,7,5.6
+US0153,Submit a session at BADCAMP,US0153T9,5,4,5,3,2,5,6.4
+US0153,Be offered several choices of individual sponsorship on the second page of registration,US0153T10,5,4,5,3,2,6,6.4
+US0154,See a list of attendees signed up for my summit,US0154T1,5,5,5,2,2,1,6.6
+US0154,List basic information about my summit,US0154T2,4,4,5,3,2,3,5.9
+US0154,List sponsors for my summit,US0154T3,4,4,5,3,2,4,5.9
+US0154,List an agenda for my summit,US0154T4,5,4,5,4,2,2,6.6
+US0155,Refund sponsorship money that was processed via Stripe,US0155T1,5,5,5,3,2,1,6.8
+US0155,Create and maintain venues,US0155T2,4,4,5,3,3,2,6
+US0155,"Assign sponsors to events, trainings, and summits",US0155T3,4,4,5,3,2,3,5.9
+US0155,Tag blog posts for consumption by Drupal Planet,US0155T4,3,3,4,2,2,8,4.5
+US0155,Create blog posts,US0155T5,4,4,4,3,2,6,5.6
+US0155,Assign a room to a time slot and a location,US0155T6,4,4,4,3,3,4,5.7
+US0155,Bulk approve sessions as accepted,US0155T7,4,3,5,2,2,7,5.3
+US0155,Mark a session as accepted,US0155T8,4,4,5,2,2,5,5.7
+US0156,Link BADCamp attendees to my sponsorship page,US0156T1,5,4,5,2,2,3,6.2
+US0156,Sponsor a summit that matches my brand,US0156T2,5,4,5,3,3,2,6.5
+US0156,Link to my sponsorship profile from my job listings,US0156T3,4,3,4,2,2,5,5
+US0156,Post a job,US0156T4,5,5,5,3,2,1,6.8
+US0156,Personalize my sponsorship page,US0156T5,4,4,4,3,3,4,5.7
+US0157,Properly record all metadata,US0157T1,5,5,5,3,2,1,6.8
+US0157,Plan what kind of data to record/store,US0157T2,5,4,5,3,2,2,6.4
+US0157,Record information about my DMP,US0157T3,4,4,5,3,3,6,6
+US0157,Plan what kind of data to store,US0157T4,5,4,5,3,2,3,6.4
+US0157,Know how secure data is,US0157T5,5,4,5,2,2,4,6.2
+US0157,Know who owns the data,US0157T6,5,4,5,2,2,5,6.2
+US0158,Indicate where data will be stored during and after the project,US0158T1,5,5,5,3,2,1,6.8
+US0158,Import metadata captured with a metadata tool,US0158T2,5,4,5,3,2,3,6.4
+US0158,Know which topics are mandatory and similar in all DMPs,US0158T3,4,5,5,3,3,4,6.4
+US0158,Prepopulate DMP information from institutional systems,US0158T4,5,4,5,2,2,5,6.2
+US0158,Know how many resources are needed during the project,US0158T5,5,4,4,2,2,9,5.9
+US0158,Extract the description of the data collected,US0158T6,5,4,4,3,2,7,6.1
+US0158,Record research publications in repository with DMP records,US0158T7,5,4,4,3,3,6,6.2
+US0158,Link research publications with DMP records,US0158T8,5,5,4,3,3,2,6.6
+US0158,Store agreements related to third-party data,US0158T9,5,4,4,2,2,10,5.9
+US0158,Know about costs,US0158T10,5,4,4,2,2,11,5.9
+US0158,Know how long it will take to archive,US0158T11,4,4,4,3,2,12,5.6
+US0158,See costing sections by other researchers,US0158T12,4,4,3,3,3,13,5.4
+US0158,See role sections by other researchers,US0158T13,4,4,3,3,3,14,5.4
+US0158,See responsibility sections by other researchers,US0158T14,4,4,3,3,3,15,5.4
+US0158,Record intention to share data under specific licenses,US0158T15,4,5,4,3,3,8,6.1
+US0159,Know how the data is used to develop usage and support scenarios,US0159T1,5,4,4,3,3,10,6.2
+US0159,Have descriptions of collected data sets to ensure updates throughout the lifecycle,US0159T2,5,5,5,3,3,2,6.9
+US0159,Know the content of the data for collection/repository fit,US0159T3,5,4,4,2,2,16,5.9
+US0159,Know data types produced/collected to determine support services,US0159T4,5,5,4,3,3,5,6.6
+US0159,Document rights necessary for managing the data,US0159T5,5,5,4,3,3,6,6.6
+US0159,Check data content for intellectual reusability expertise,US0159T6,4,4,3,3,3,18,5.4
+US0159,Know the time plan for collecting data to plan management,US0159T7,5,4,4,3,2,14,6.1
+US0159,Reference documentation for data reuse and management,US0159T8,5,5,4,3,3,7,6.6
+US0159,Ensure technical resources for data type production/collection,US0159T9,5,4,4,2,3,15,6
+US0159,Maintain dependencies on other data sets for reusability,US0159T10,5,5,4,3,3,8,6.6
+US0159,Check necessary information for data reusability,US0159T11,5,4,4,3,3,11,6.2
+US0159,Know formats for determining tech/background needs for data use,US0159T12,5,5,4,3,3,9,6.6
+US0159,Assess data reproducibility for storage requirements,US0159T13,4,4,4,3,3,17,5.7
+US0159,Identify software/tech for producing/using data for reuse,US0159T14,5,4,4,3,3,12,6.2
+US0159,Assess security requirements to maintain data security,US0159T15,5,4,4,3,3,13,6.2
+US0159,Clarify rights for legal data reuse,US0159T16,5,5,5,3,3,3,6.9
+US0159,Plan data anonymization to balance privacy and reusability,US0159T17,5,5,5,3,4,1,7
+US0159,Verify DMP approval to proceed with next steps,US0159T18,5,5,5,3,3,4,6.9
+US0160,Check the planned provenance of data to calculate fees and check target group alignment,US0160T1,5,4,4,3,3,1,6.2
+US0161,Know IT resource requirements early in lifecycle,US0161T1,4,5,4,3,3,1,6.1
+US0162,Know the security requirements of the data to apply security measures,US0162T1,5,5,4,4,4,1,6.9
+US0162,Estimate the produced data volume to plan storage consumption,US0162T2,4,4,4,3,3,5,5.7
+US0162,Determine data types to identify required support services,US0162T3,4,4,4,4,3,4,5.9
+US0162,Determine data types to ensure necessary resources and know-how are available,US0162T4,4,5,5,4,4,2,6.7
+US0162,Understand how data is used to determine basic services and functionalities required,US0162T5,4,4,4,3,3,6,5.7
+US0162,Know the formats used to determine required technical services,US0162T6,3,4,4,3,3,7,5.2
+US0162,Identify software/technology used to determine required technical services,US0162T7,4,4,5,4,4,3,6.3
+US0163,Know about data sensitivity to establish sharing options,US0163T1,5,5,5,3,4,1,7
+US0164,Extract pointers from the DMP to metadata in other systems for importing into a data catalogue,US0164T1,5,5,5,4,4,1,7.2
+US0164,Import administrative information regarding a project into DMP to prepopulate the DMP,US0164T2,4,4,4,3,3,2,5.7
+US0165,Know who funded the project and their requirements to track funder-specific obligations,US0165T1,5,5,5,4,3,2,7.1
+US0165,Check that all data has the appropriate security level to demonstrate compliance,US0165T2,5,5,5,4,4,1,7.2
+US0166,Know the legal status of data to apply legal requirements accordingly,US0166T1,5,5,5,4,3,2,7.1
+US0166,Know the conservation period of data to better organize preservation actions,US0166T2,5,4,5,4,3,4,6.7
+US0166,Reuse information regarding file format to apply automated checks for file validation,US0166T3,4,4,4,3,3,5,5.7
+US0166,Make sure that detailed metadata are associated with data to make it understandable for future users,US0166T4,5,5,5,4,4,1,7.2
+US0166,Get information about the volume of data to preserve at an early stage to provide adequate storage infrastructure,US0166T5,5,5,4,4,3,3,6.8
+US0167,Read the costs for data management from the DMP to check if policies work as intended,US0167T1,5,5,5,4,3,2,7.1
+US0167,Know how secure data is to ensure legal compliance,US0167T2,5,5,5,4,4,1,7.2
+US0167,Check all the repositories mentioned in a DMP to verify if the project follows funding rules,US0167T3,5,5,5,4,3,3,7.1
+US0168,Know when the data management plan was created/updated to understand if it needs to be updated,US0168T1,4,4,5,3,3,1,6
+US0168,Know who is responsible for the DMP to ask for further details,US0168T2,4,4,5,3,2,2,5.9
+US0168,Have references to the project proposal to look up further general information,US0168T3,4,3,4,3,2,3,5.2
+US0169,Have a short description of the project to be informed about the metadata description,US0169T1,4,4,4,3,2,1,5.6
+US0170,Know how much data will be stored to plan long-term resources,US0170T1,5,5,5,4,3,2,7.1
+US0170,Access reports with details of research projects in which data are classified as sensitive or highly sensitive,US0170T2,5,5,5,4,4,1,7.2
+US0171,Know about all resources and services used for the data to estimate the true cost of the project,US0171T1,5,5,5,4,4,1,7.2
+US0172,Be informed about the data to check for its sensitivity,US0172T1,5,5,5,4,3,1,7.1
+US0173,Know about the kind of data to evaluate storage size and system,US0173T1,5,5,5,3,4,1,7
+US0174,Need details on the type of data to check if the archiving can be arranged,US0174T1,5,5,5,4,4,1,7.2
+US0174,Want to have metadata in additional languages to allow for multilingual data archive,US0174T2,4,4,5,3,3,2,6
+US0175,Know how secure data is to ensure legal compliance,US0175T1,5,5,5,4,3,1,7.1
+US0176,Receive regular summary reports of research data to understand trends in data use among staff and students,US0176T1,5,4,5,3,4,1,6.6
+US0177,Ensure compliance to the funders rules to ensure all costs will be accepted,US0177T1,5,5,5,4,4,1,7.2
+US0178,Access reports containing details of research projects where data are classified as sensitive or highly sensitive to confirm security protocols are applied,US0178T1,5,5,5,4,3,1,7.1
+US0179,Ensure all data are quoted correctly with the institutions affiliation to count towards citation counts,US0179T1,5,4,5,4,3,1,6.7
+US0180,Know about the privacy and security requirements of the data to plan the right storage system and sharing permissions,US0180T1,5,5,5,4,4,1,7.2
+US0181,Extract data sets submitted to external repositories to add them to the institutional data catalogue,US0181T1,5,4,5,3,4,1,6.6
+US0182,See the sections on costing to ensure sufficient expertise on data management to support the project,US0182T1,5,4,5,4,3,1,6.7
+US0182,See the sections on roles to ensure sufficient expertise on data management to support the project,US0182T2,5,4,5,4,3,2,6.7
+US0182,See the sections on responsibilities to ensure sufficient expertise on data management to support the project,US0182T3,5,4,5,4,3,3,6.7
+US0183,View a finding aid for a particular collection/resource,US0183T1,5,4,5,3,3,1,6.5
+US0184,Reset a User's password for them,US0184T1,5,5,5,3,2,1,6.8
+US0184,Assign Users to an Advanced Data Entry and ensure appropriate permissions are enforced,US0184T2,5,4,5,4,4,2,6.8
+US0184,Configure the help center URL and topic mappings,US0184T3,4,3,4,3,3,3,5.3
+US0185,Backend changes for managing enum lists,US0185T1,4,4,5,4,3,6,6.2
+US0185,Authenticate using LDAP,US0185T2,5,5,5,4,4,1,7.2
+US0185,Frontend changes for managing enum lists,US0185T3,4,4,5,3,3,7,6
+US0185,Backend changes to support loading enum value lists from the database,US0185T4,5,5,5,4,4,2,7.2
+US0185,Backend changes for bulk updating one enum value to another,US0185T5,5,4,5,4,4,4,6.8
+US0185,Add additional properties for repositories,US0185T6,4,3,4,3,3,8,5.3
+US0185,Authenticate locally,US0185T7,5,5,5,4,4,3,7.2
+US0185,Log in,US0185T8,5,5,5,2,2,5,6.6
+US0186,Store the AT or Archon source record ids in each ASpace record to support data migration integrity testing,US0186T1,5,5,5,3,4,1,7
+US0187,Get access to links to contextual help,US0187T1,4,4,5,3,3,1,6
+US0188,Use a configuration that is not prepackaged within a built version of the application,US0188T1,4,4,5,4,4,2,6.3
+US0188,Develop a custom importer,US0188T2,5,4,5,5,5,1,7.1
+US0189,Control the location of the demo database and ensure it is backed up,US0189T1,5,5,5,3,4,1,7
+US0189,Declare that a user has the Repository Manager role for a given Repository,US0189T2,4,4,5,3,3,2,6
+US0190,"Create, update and delete archival descriptions in my repository",US0190T1,5,4,5,3,4,2,6.6
+US0190,"Create, update and delete any records in my repository",US0190T2,5,5,5,4,5,1,7.3
+US0191,Create and update basic archival description information,US0191T1,4,4,5,3,3,1,6
+US0192,View archival descriptions in my repository,US0192T1,3,3,4,2,2,1,4.5
+US0193,Import EAD files that were exported by Archon,US0193T1,5,4,5,4,5,5,6.9
+US0193,Assign a component unique identifier to a Resource Component,US0193T2,5,4,5,3,4,15,6.6
+US0193,Associate a standard identifier string with a Subject heading,US0193T3,5,4,5,3,3,19,6.5
+US0193,Understand that an error occurred during import and why it might have occurred,US0193T4,5,5,5,2,3,13,6.7
+US0193,Import Accessions data in CSV,US0193T5,4,3,5,3,3,24,5.6
+US0193,Import Resources from MARCXML records,US0193T6,5,4,5,4,5,6,6.9
+US0193,See Dates and Extents displayed in both the read and edit views for Accessions and/or Resources,US0193T7,4,4,4,2,2,28,5.4
+US0193,Import Agent information from EAC-CPF records,US0193T8,5,4,5,4,5,7,6.9
+US0193,Export agent records as EAC-CPF,US0193T9,5,4,5,4,5,8,6.9
+US0193,Import only Agent and Subject information from MARCXML records,US0193T10,4,3,5,3,3,25,5.6
+US0193,Add Notes to other record types,US0193T11,3,4,4,2,2,33,4.9
+US0193,Add administrative data about the archival description and finding aid-related data to a top-level Resource,US0193T12,5,5,5,3,4,2,7
+US0193,Add administrative data about the archival description and finding aid-related data to a top-level Resource,US0193T13,4,4,4,3,3,23,5.7
+US0193,Import EAD files that were exported by the Archivists' Toolkit,US0193T14,5,4,5,4,5,9,6.9
+US0193,Search within a repository for resource and accession and digital object records,US0193T15,4,3,5,2,2,29,5.3
+US0193,Create and edit a Collection Management subrecord,US0193T16,4,3,4,3,3,30,5.3
+US0193,Rearrange the Resource and/or Digital Object hierarchy using keyboard-based navigation,US0193T17,3,4,4,3,3,32,5.2
+US0193,Rearrange the resource description hierarchy by dragging an archival object to a different position,US0193T18,4,3,4,3,3,31,5.3
+US0193,Indicate an Agent is either the creator or source or subject of an Accession or Resource or Resource Component,US0193T19,5,4,5,3,4,16,6.6
+US0193,Export a description as EAD,US0193T20,5,4,5,4,5,10,6.9
+US0193,Create and edit Event records,US0193T21,4,4,5,3,3,21,6
+US0193,Manage Digital Objects,US0193T22,5,5,4,4,5,3,7
+US0193,Associate an Instance with a Resource and/or Resource Component,US0193T23,4,4,5,3,3,22,6
+US0193,Dont inadvertently overwrite someone else's changes to a record that Im editing,US0193T24,5,5,5,2,2,14,6.6
+US0193,Create and edit Rights Management statements,US0193T25,5,5,5,3,4,4,7
+US0193,Upload an EAD for import from within the frontend application,US0193T26,5,4,5,3,4,17,6.6
+US0193,Import EAD data,US0193T27,5,4,5,4,5,11,6.9
+US0193,Specify the Source for a Name Form of an Agent and add new Sources and edit existing Sources,US0193T28,5,4,5,3,4,18,6.6
+US0193,Create and edit Agent records,US0193T29,5,5,5,4,5,1,7.3
+US0193,Create and edit a Resource record,US0193T30,4,5,5,4,5,12,6.8
+US0193,Associate a Subject record with a Resource description,US0193T31,4,3,5,3,3,26,5.6
+US0193,Associate an Instance with a Container,US0193T32,4,3,5,3,3,27,5.6
+US0193,Assign Location information to a Container,US0193T33,5,3,5,3,3,20,6.1
+US0194,Deposit and maintain datasets through a simple web interface,US0194T1,5,5,5,2,3,5,6.7
+US0194,Have a user interface that is familiar to me,US0194T2,4,4,5,2,2,18,5.7
+US0194,Deposit and maintain datasets through Pure,US0194T3,5,5,5,3,4,2,7
+US0194,Deposit and maintain datasets through Virtual Research Environments and other workflow tools,US0194T4,5,4,4,3,4,12,6.3
+US0194,Deposit the files that I have,US0194T5,4,5,5,2,2,14,6.1
+US0194,Place data under an embargo,US0194T6,5,5,5,2,3,6,6.7
+US0194,Apply licenses to datasets,US0194T7,5,4,5,3,3,10,6.5
+US0194,Allow collaborators privileged access to datasets,US0194T8,4,4,5,3,3,16,6
+US0194,Deposit arbitrarily large files,US0194T9,5,4,4,4,5,7,6.6
+US0194,Link datasets to publications in Opus,US0194T10,4,3,5,2,2,20,5.3
+US0194,Mint DOIs for data,US0194T11,5,4,5,3,4,8,6.6
+US0194,Have metadata automatically filled from other University systems and remembered from previous deposits,US0194T12,5,5,5,3,4,3,7
+US0194,Link to data stored in external repositories,US0194T13,4,4,5,3,4,15,6.1
+US0194,Specify a disposal policy for data,US0194T14,5,4,5,3,3,11,6.5
+US0194,Track downloads of data,US0194T15,4,3,4,2,2,21,5
+US0194,Track citations of data,US0194T16,4,3,4,2,2,22,5
+US0194,Have guarantees about data integrity,US0194T17,5,5,5,3,4,4,7
+US0194,Attach subject-specific discoverability metadata to records,US0194T18,5,4,5,2,3,13,6.3
+US0194,Link datasets with the project DMP,US0194T19,4,3,5,3,3,19,5.6
+US0194,Manage and share live research data,US0194T20,5,5,5,4,5,1,7.3
+US0194,Manage multiple versions of the same dataset,US0194T21,5,4,5,3,4,9,6.6
+US0194,Allow others to deposit on my behalf,US0194T22,4,4,5,3,3,17,6
+US0195,Search the archive through the web,US0195T1,5,5,5,3,4,1,7
+US0195,Access the system in my native language,US0195T2,5,4,5,2,3,6,6.3
+US0195,Examine and identify deposited files,US0195T3,5,5,5,3,3,2,6.9
+US0195,View an example citation for a dataset,US0195T4,5,4,5,2,2,7,6.2
+US0195,View a DOI for a dataset,US0195T5,5,4,5,3,3,3,6.5
+US0195,Get a persistent URL for a dataset,US0195T6,5,4,5,3,3,4,6.5
+US0195,Search the archive through Primo,US0195T7,4,4,5,3,4,8,6.1
+US0195,See different versions of a dataset at a glance,US0195T8,5,4,5,3,3,5,6.5
+US0196,Gain privileged access to data for projects in which I am involved,US0196T1,5,5,5,3,4,1,7
+US0196,Have guarantees that my IP rights will not be breached,US0196T2,5,5,5,2,3,2,6.7
+US0196,Access data from Bath collaborators off-campus,US0196T3,5,4,5,3,4,3,6.6
+US0197,Deposit data from my facility directly into the archive on behalf of researchers,US0197T1,5,4,5,3,4,1,6.6
+US0198,Make some checks on deposited datasets before they are made public,US0198T1,5,4,5,4,4,3,6.8
+US0198,Require a minimum set of metadata,US0198T2,5,4,5,3,4,4,6.6
+US0198,Approve scheduled disposal of data,US0198T3,5,5,5,3,4,1,7
+US0198,Query the entire archive,US0198T4,5,3,4,4,4,5,6.1
+US0198,Import Bath data from an external data centre wholesale,US0198T5,5,4,5,4,5,2,6.9
+US0198,Encourage and promote the use of open standards for deposit,US0198T6,5,4,4,2,3,6,6
+US0199,Integrate the archive with CRIS,US0199T1,5,5,5,4,5,1,7.3
+US0199,Include records for externally held data complete,US0199T2,5,4,5,3,4,3,6.6
+US0199,Track citation counts for published datasets,US0199T3,5,4,5,3,4,4,6.6
+US0199,Segment the view and download statistics by country and sector,US0199T4,4,3,4,3,3,5,5.3
+US0199,Have datasets linked to metadata about projects,US0199T5,5,5,5,3,4,2,7
+US0200,Store archived data on existing storage systems,US0200T1,5,5,5,4,5,1,7.3
+US0200,Integrate the archive with existing university systems such as LDAP,US0200T2,5,4,5,3,4,2,6.6
+US0200,Store archived data directly on the HCP object store,US0200T3,5,4,5,3,4,3,6.6
+US0200,Be able to export all data to a different system,US0200T4,4,3,5,4,5,4,6
+US0201,Be reassured that researchers I fund have robust archival plans for their data,US0201T1,5,5,5,3,4,1,7
+US0201,Harvest metadata on outputs from research I fund,US0201T2,5,4,5,3,4,2,6.6
+US0202,"Deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive",US0202T1,5,4,5,4,4,1,6.8
+US0203,"Deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive",US0203T1,5,4,5,4,4,1,6.8
+US0204,List for browsing all formal collections represented in the DAMS along with the appropriate relationships,US0204T1,5,5,5,4,4,3,7.2
+US0204,Know what repository an object belongs to,US0204T2,5,4,5,3,4,20,6.6
+US0204,Know what collection(s) an object belongs to,US0204T3,5,4,5,3,4,21,6.6
+US0204,Present in their assigned order all components comprising an object,US0204T4,5,4,5,3,4,22,6.6
+US0204,"Indicate to preservation managers aspects of a master file useful for monitoring its integrity, and impending obsolescence",US0204T5,5,5,5,4,5,1,7.3
+US0204,Indicate to preservation managers the checksum and checksum method for each master file for a given object,US0204T6,5,5,5,4,5,2,7.3
+US0204,Indicate the source-capture information for a file where it is useful to do so,US0204T7,5,4,5,4,4,10,6.8
+US0204,"Know, via preservation managers, of any object for which integrity or authenticity is in question or that has been updated to a more current file format",US0204T8,5,5,5,3,5,4,7.1
+US0204,"Present collections, objects, and object components by title",US0204T9,5,4,5,3,4,23,6.6
+US0204,"Know, via the preservation manager, of all files for which the checksum has changed since last registered",US0204T10,5,5,5,3,5,5,7.1
+US0204,Know what objects or object components are still under copyright and cannot be displayed without either a license or incurring risk,US0204T11,5,5,5,3,4,6,7
+US0204,Know when copyright for an object or object component is likely to expire per jurisdictional copyright statute,US0204T12,5,4,5,4,4,11,6.8
+US0204,"Know when the copyright status for an object or object component is modified, either manually or automatically",US0204T13,5,4,5,4,4,12,6.8
+US0204,Know all the statutes pertinent to an object or object component,US0204T14,5,4,5,4,4,13,6.8
+US0204,Know when the pertinence of a statute to an object or object component is scheduled to expire,US0204T15,5,4,5,4,4,14,6.8
+US0204,"Know when the application of a statute to an object or object component has been modified, either manually or automatically",US0204T16,5,4,5,4,4,15,6.8
+US0204,Know if copyrighted content has an applicable license,US0204T17,5,5,5,3,4,7,7
+US0204,Know if an object or object component is subject to a library policy that restricts access in any way,US0204T18,5,4,5,4,4,16,6.8
+US0204,Know when application of a library policy to an object or object component is scheduled to expire,US0204T19,5,4,5,4,4,17,6.8
+US0204,"Know if application of a library policy to an object or object component has been modified, either manually or automatically",US0204T20,5,4,5,4,4,18,6.8
+US0204,Know all the uses for an object or object component that are permitted or restricted per the rights status of the object or object component,US0204T21,5,5,5,3,4,8,7
+US0204,Know the dates for when a permission or restriction is active,US0204T22,5,5,5,3,4,9,7
+US0204,Know when permitted and restricted acts and/or their active dates are modified,US0204T23,5,4,5,4,4,19,6.8
+US0204,Track all events scheduled for recording in the DAMS,US0204T24,5,4,5,3,4,24,6.6
+US0204,Know the agent(s) responsible for carrying out an event,US0204T25,5,4,5,3,4,25,6.6
+US0204,Know when the event occurred,US0204T26,5,4,5,3,4,26,6.6
+US0204,"Know the outcome of the event, e.g., object NN was deleted",US0204T27,5,4,5,3,4,27,6.6
+US0205,List all the collections and objects in the DAMS that belong to a library unit,US0205T1,5,5,5,3,4,9,7
+US0205,Be able to contact repositories,US0205T2,4,3,4,3,3,22,5.3
+US0205,Browse by collections in the DAMS,US0205T3,5,5,5,4,4,1,7.2
+US0205,Limit my search to specified collection(s),US0205T4,5,5,5,4,4,2,7.2
+US0205,Know what repository an object belongs to,US0205T5,5,5,5,3,4,10,7
+US0205,Know what collection(s) an object belongs to,US0205T6,5,5,5,3,4,11,7
+US0205,See all the component parts of an object,US0205T7,5,4,5,3,4,21,6.6
+US0205,Have access to the content files for an object,US0205T8,5,5,5,3,4,12,7
+US0205,Know the rights status of an object,US0205T9,5,5,5,4,4,3,7.2
+US0205,Know about other versions of the object or its metadata,US0205T10,5,5,5,4,4,4,7.2
+US0205,See and navigate the component hierarchy of an object,US0205T11,5,5,5,4,4,5,7.2
+US0205,"Access content files that comprise an object, to decide whether a file is too large to download",US0205T12,5,4,5,4,4,14,6.8
+US0205,"Search collections, objects, and object components by title",US0205T13,5,5,5,4,4,6,7.2
+US0205,"Know for an object or its component parts the place of publication, the publisher, etc.",US0205T14,5,4,5,4,4,15,6.8
+US0205,"Know about various facets of a collection, object, or component (e.g., scope, identifiers, access conditions)",US0205T15,5,4,5,4,4,16,6.8
+US0205,"Scope my searches for collections, objects, or object components to a specific language",US0205T16,5,4,5,4,4,17,6.8
+US0205,Search collections and objects by name,US0205T17,5,5,5,3,4,13,7
+US0205,"Scope searches by name to a specific role such as illustrator, photographer, etc.",US0205T18,5,4,5,4,4,18,6.8
+US0205,"Search for collections, objects, and components by headings (e.g., title, topic, geographical name, etc.)",US0205T19,5,5,5,4,4,7,7.2
+US0205,"See the geographical context of a collection, object, or object component where pertinent",US0205T20,5,4,5,4,4,19,6.8
+US0205,Know of all other pertinent versions or descriptions of the resource,US0205T21,5,4,5,4,4,20,6.8
+US0205,"Know if an object or component is under copyright and, where possible, who the rights holder is",US0205T22,5,5,5,4,4,8,7.2
+US0206,Know all the collections and objects in the DAMS for which I have custodial responsibility,US0206T1,5,5,5,3,4,15,7
+US0206,Update repository information in one place and ensure updates propagate to all relevant places,US0206T2,5,5,5,4,4,2,7.2
+US0206,Constrain curatorial access to assets to authorized staff and DAMS managers,US0206T3,5,5,5,4,4,3,7.2
+US0206,Know all the collections for which I have curatorial responsibility,US0206T4,5,5,5,3,4,16,7
+US0206,"Compose collections by shared provenance, part of a collection, or assembled collections",US0206T5,5,5,5,4,5,1,7.3
+US0206,Relate one collection to another collection,US0206T6,5,4,4,3,4,25,6.3
+US0206,"Describe a collection with title, dates, languages, and other metadata",US0206T7,5,5,5,4,4,4,7.2
+US0206,"Indicate names related to the collection as creator, source, or subject",US0206T8,5,5,5,4,4,5,7.2
+US0206,Indicate subjects related to the collection,US0206T9,5,4,4,4,4,22,6.5
+US0206,Indicate external descriptions of the collection relevant to users,US0206T10,4,4,4,4,3,27,5.9
+US0206,Track all events occurring to a collection,US0206T11,5,5,5,4,4,6,7.2
+US0206,Know all components and files belonging to an object,US0206T12,5,5,5,3,4,17,7
+US0206,"Describe an object, including title, date(s), language(s), and metadata",US0206T13,5,5,5,4,4,7,7.2
+US0206,"Indicate names, subjects, and rights (copyright, statutes, licenses) pertinent to an object",US0206T14,5,5,5,4,4,8,7.2
+US0206,Link external versions or descriptions of an object,US0206T15,4,4,4,3,3,29,5.7
+US0206,Know events occurring to an object throughout its life cycle,US0206T16,5,5,5,4,4,9,7.2
+US0206,List components of an object in the appropriate order,US0206T17,5,4,4,3,4,26,6.3
+US0206,Link components to other components or files,US0206T18,5,4,4,4,4,23,6.5
+US0206,"Describe components with title, dates, and metadata",US0206T19,5,5,5,4,4,10,7.2
+US0206,"Indicate names, subjects, and rights (copyright, statutes, licenses) for components",US0206T20,5,4,4,4,4,24,6.5
+US0206,Know all events for a component during its life cycle,US0206T21,5,5,5,4,4,11,7.2
+US0206,List all content files for repository objects and link files to objects or components,US0206T22,5,5,5,4,4,12,7.2
+US0206,Track events for repository content files,US0206T23,5,5,5,4,4,13,7.2
+US0206,"Provide titles and update title changes for collections, objects, and components",US0206T24,5,4,5,3,4,20,6.6
+US0206,"Indicate publication details, including place, publisher, and edition, when relevant",US0206T25,5,4,5,4,4,18,6.8
+US0206,"Register names for identities and indicate roles (e.g., illustrator, photographer)",US0206T26,5,4,5,3,4,21,6.6
+US0206,"Indicate subjects and geocoordinates for collections, objects, and components",US0206T27,5,4,5,4,4,19,6.8
+US0206,Know checksum changes for repository content files,US0206T28,5,5,5,4,4,14,7.2
+US0206,Track hardware and software used for generating content files,US0206T29,4,4,4,4,3,28,5.9
+US0207,Generate structured citation data for citing a file in a publication,US0207T1,5,5,5,4,4,2,7.2
+US0207,Share a link to a file on social media,US0207T2,4,4,4,3,3,20,5.7
+US0207,Understand the copyright status of an image,US0207T3,5,5,5,3,4,10,7
+US0207,Provide clear citation information on each document,US0207T4,5,5,5,3,4,11,7
+US0207,Share reports written by the researcher,US0207T5,4,4,4,3,3,21,5.7
+US0207,Download a file for research purposes,US0207T6,5,5,5,3,4,12,7
+US0207,Download reports for use in talks and articles,US0207T7,5,5,5,3,4,13,7
+US0207,Locate photographs and documents for sharing on social media,US0207T8,4,4,4,3,3,22,5.7
+US0207,Request analog versions of digital objects,US0207T9,4,3,4,3,3,24,5.3
+US0207,Order copies of photos for use in a publication,US0207T10,5,5,5,3,4,14,7
+US0207,Receive notifications if requested material is already digitized,US0207T11,5,5,5,4,4,3,7.2
+US0207,Stream audio and video files in a web browser,US0207T12,5,5,5,4,4,4,7.2
+US0207,Export descriptive data in a common format for text mining tools,US0207T13,5,5,5,4,4,5,7.2
+US0207,Search all files by keyword,US0207T14,5,5,5,4,4,6,7.2
+US0207,Search by keyword to identify existing digital resources and avoid duplication requests,US0207T15,5,5,5,4,4,7,7.2
+US0207,See common material across collections for comprehensive analysis,US0207T16,5,5,5,4,4,8,7.2
+US0207,Browse through files in a collection,US0207T17,5,5,5,3,4,15,7
+US0207,Create user groups to control user permissions,US0207T1,5,5,5,3,4,16,7
+US0207,Create user roles to group users by role,US0207T2,4,4,4,3,3,23,5.7
+US0207,Assign RAC staff to user groups to control read/write access,US0207T3,5,5,5,3,4,17,7
+US0207,Assign rights to user groups or roles to control permissions,US0207T4,5,5,5,4,4,9,7.2
+US0207,Allow users to log in using Active Directory credentials to avoid managing additional credentials,US0207T5,5,5,5,4,5,1,7.3
+US0207,Enable researchers to reset their own passwords to avoid sending cleartext passwords,US0207T6,5,5,5,3,4,18,7
+US0207,Limit visibility of metadata fields based on user groups,US0207T7,4,4,4,4,4,19,6
+US0208,Search across photo collection images to prepare presentations,US0208T1,4,5,5,3,4,6,6.5
+US0208,Search using structured data to find everything relevant across collections,US0208T2,5,5,5,4,4,1,7.2
+US0208,Access tagged working papers to better inform the research process,US0208T3,4,4,4,3,4,8,5.8
+US0208,Access educational outreach materials to connect with institutions,US0208T4,4,3,4,3,3,13,5.3
+US0208,Have accurate cross-collection citation information for finding materials again,US0208T5,5,5,5,4,4,2,7.2
+US0208,Access digitized archival materials without mediation to decide what to look at,US0208T6,5,5,5,3,4,4,7
+US0208,Ask a question about a specific file for more information,US0208T7,4,4,4,3,4,9,5.8
+US0208,Search OCRed text in all available digitized documents to efficiently locate relevant materials,US0208T8,5,5,5,4,4,3,7.2
+US0208,Know the digitization date of materials to track changes since the last review,US0208T9,4,4,4,3,3,11,5.7
+US0208,"Keyword search across an RF program officer's scanned diaries instead of searching segments separately	",US0208T10,4,4,4,3,4,10,5.8
+US0208,View thumbnails of photos to select ones for licensing,US0208T11,4,4,4,3,3,12,5.7
+US0208,Know when only part of a folder has been digitized to understand if it's complete,US0208T12,5,5,5,3,4,5,7
+US0208,View film clips to see excerpts of films,US0208T13,4,4,4,4,4,7,6
+US0209,Upload and tag staff-generated working papers for easy access by staff and researchers,US0209T1,5,5,5,3,4,1,7
+US0209,Easily access interdepartmental forms,US0209T2,4,4,4,2,3,2,5.5
+US0210,Apply a license or rights statement to files,US0210T1,5,5,5,2,3,1,6.7
+US0210,Mark individual files as restricted,US0210T2,5,4,5,2,3,3,6.3
+US0210,Batch edit metadata about files,US0210T3,5,4,5,3,4,2,6.6
+US0210,"Automatically generate technical metadata (e.g., file size)",US0210T4,4,4,5,2,3,6,5.8
+US0210,Upload groups of files,US0210T5,4,4,4,3,4,5,5.8
+US0210,Restrict access to files by user/IP address,US0210T6,5,3,5,3,4,4,6.2
+US0210,Automatically embed metadata in file headers,US0210T7,4,3,4,4,3,7,5.5
+US0210,Upload scans of images created for research requests,US0210T8,4,3,4,3,3,8,5.3
+US0210,Automatically create access copies of files,US0210T9,4,3,4,3,3,9,5.3
+US0210,"Search images by rights, photographer, or place",US0210T10,4,3,4,3,3,10,5.3
+US0210,Manage scans of archival material for educational visits,US0210T11,4,2,3,3,3,11,4.6
+US0211,Access a collection within the repository,US0211T1,5,5,5,2,3,1,6.7
+US0211,"Direct students to an item within the repository (e.g., link to content)",US0211T2,5,5,5,2,3,2,6.7
+US0211,Upload scholarly work to the repository for a persistent URL,US0211T3,5,4,5,3,4,3,6.6
+US0211,Easily collect publications (repository and external) into a single access point,US0211T4,5,4,4,3,4,5,6.3
+US0211,"Maintain versioning of Extension brochures, FAQs, etc., to ensure current use",US0211T5,4,4,4,3,3,7,5.7
+US0211,"Upload scholarly work to expand influence, reach non-academic audiences, and teach",US0211T6,5,4,5,3,4,4,6.6
+US0211,Associate files with scholarly works for a comprehensive research view,US0211T7,4,4,4,4,4,6,6
+US0211,Recommend a digital collection be built in the repository,US0211T8,4,3,4,3,3,8,5.3
+US0212,Upload data to the repository and associate it with a publication for proper attribution,US0212T1,5,5,5,3,4,1,7
+US0212,Upload data with a formatted citation for proper attribution,US0212T2,5,5,4,3,4,4,6.7
+US0212,See clearly what reuse rights apply to files in the repository,US0212T3,5,4,5,2,3,9,6.3
+US0212,Search and browse the repository on a phone,US0212T4,4,4,4,3,3,11,5.7
+US0212,Login remotely using Shibboleth to access Cornell-only content,US0212T5,5,5,5,2,3,5,6.7
+US0212,Control how items in collections sort in lists,US0212T6,4,3,4,3,3,15,5.3
+US0212,Be notified if someone downloads deposited items,US0212T7,4,3,4,3,4,13,5.4
+US0212,Upload a data file with a CC-By or CC0 license,US0212T8,5,5,5,2,3,6,6.7
+US0212,Create a branded collection for documents,US0212T9,4,3,4,4,4,12,5.6
+US0212,Find all authored items in the repository by searching on name,US0212T10,5,5,5,3,3,2,6.9
+US0212,Ensure deposited items rank high on Google search,US0212T11,5,5,4,4,3,3,6.8
+US0212,Search dissertations for which the faculty member was a committee member,US0212T12,4,4,3,3,3,14,5.4
+US0212,Easily assign CC licenses to deposited files,US0212T13,5,4,5,3,3,8,6.5
+US0212,Associate a ResearcherID or ORCID with submissions,US0212T14,5,5,5,2,3,7,6.7
+US0212,Share files larger than 1GB in a downloadable manner,US0212T15,4,4,4,4,4,10,6
+US0213,Know which reports/datasets are coming out and when to access the latest updates,US0214T1,5,5,5,3,4,1,7
+US0213,Select/deselect multiple reports/datasets for email notifications,US0214T2,5,5,4,4,4,3,6.9
+US0213,Search for reports/datasets with keywords or partial/complete titles,US0214T3,5,4,5,2,3,6,6.3
+US0213,Browse content by author or subject area to locate needed resources,US0214T4,4,4,4,3,3,7,5.7
+US0213,View multiple versions of a report/dataset for historical and timely information,US0214T5,5,4,5,3,3,5,6.5
+US0213,Know related reports/datasets to find other relevant information,US0214T6,4,4,4,3,3,8,5.7
+US0213,Know previous names and publication date ranges for historical and current reports/datasets,US0214T7,5,4,5,3,4,4,6.6
+US0213,Create a personal account to request email notifications about new versions,US0214T8,5,5,5,3,4,2,7
+US0213,Download report/dataset release calendar for integration into personal calendars,US0214T9,4,4,4,3,3,9,5.7
+US0213,Email system provider to report issues and ask questions,US0214T10,4,3,4,2,2,10,5
+US0213,"View/upload content in multiple formats, including old formats (e.g., Lotus Works)",US0214T11,3,3,3,4,4,11,4.8
+US0214,Mark report/dataset not to be emailed/viewable due to error,US0214T1,5,5,5,3,4,1,7
+US0214,Manage report/dataset name changes to ensure historic versions are findable,US0214T2,5,4,5,3,4,7,6.6
+US0214,See list of subscribers for specified report for research on missing reports,US0214T3,4,4,5,3,3,11,6
+US0214,Manage subject classifications for easier patron browsing and searching,US0214T4,4,4,4,3,3,12,5.7
+US0214,"Manage customizable relationship groups to support ""see also"" option",US0214T5,4,4,4,3,3,13,5.7
+US0214,Upload revised report/dataset due to errors in the report/document,US0214T6,5,5,5,3,4,2,7
+US0214,Upload new version of report/dataset while retaining previous versions,US0214T7,5,5,5,3,4,3,7
+US0214,Have the system categorize document type for proper processing and display,US0214T8,5,4,5,4,4,5,6.8
+US0214,Login to personal account with access to authorized functions,US0214T9,4,4,4,2,3,14,5.5
+US0214,Have a personal account with the ability to change passwords or retrieve forgotten ones,US0214T10,4,4,4,2,3,15,5.5
+US0214,Set up or delete accounts for other administrators with various levels of permission,US0214T11,5,4,5,4,4,6,6.8
+US0214,See a list of all administrators for ease of account administration,US0214T12,5,4,5,3,3,10,6.5
+US0214,Have robust searching and tracking features for existing and newly created patron accounts,US0214T13,5,4,5,3,4,8,6.6
+US0214,Unpublish a report/dataset if requested by USDA agency,US0214T14,5,5,5,3,4,4,7
+US0214,Add future release dates of reports/datasets to calendar for patron FYI,US0214T15,4,3,4,2,3,16,5.1
+US0214,Search for administrator accounts using full/partial email or name,US0214T16,4,3,4,2,3,17,5.1
+US0214,"Administrate patron accounts (close accounts, view subscriptions, reset passwords, etc.)",US0214T17,5,4,5,3,4,9,6.6
+US0215,Apply or remove an access embargo to an item on request from an author,US0215T1,5,5,5,3,4,6,7
+US0215,"Access comprehensive usage statistics and analytics (including altmetrics) for repository, collection, author, and item level",US0215T2,5,5,5,4,4,1,7.2
+US0215,"Create collections highlighting rare, archival, or endangered material for preservation and access",US0215T3,5,4,5,3,3,12,6.5
+US0215,Tell researchers about Cornell's repository system for archiving and sharing research results for DMPs,US0215T4,5,4,5,2,3,20,6.3
+US0215,Make digital items in trusted external systems searchable within the repository for seamless access,US0215T5,5,5,5,4,4,2,7.2
+US0215,Upload material to the repository on behalf of an author to fulfill service obligations,US0215T6,5,4,5,3,3,13,6.5
+US0215,"Create metadata for items including title, description, author, document type, status, and keywords",US0215T7,5,5,5,3,4,7,7
+US0215,"Upload large batches of items, including metadata, efficiently for authors",US0215T8,5,5,5,4,4,3,7.2
+US0215,"Upload an item that will be visible only after an embargo period expires, complying with author/publisher requirements",US0215T9,5,5,5,3,4,8,7
+US0215,"Include supplementary files (datasets, slideshows, etc.) with DOIs for robust representation of the work",US0215T10,5,4,5,3,4,11,6.6
+US0215,Deliver streaming media from within the repository for ongoing access,US0215T11,5,4,5,3,3,14,6.5
+US0215,Assign an item to multiple collections for better organization,US0215T12,5,4,5,2,3,21,6.3
+US0215,Add custom metadata fields for deposits to improve search capabilities,US0215T13,5,4,5,3,3,15,6.5
+US0215,Have customizable metadata fields for each project to ensure accurate description,US0215T14,5,4,5,3,3,16,6.5
+US0215,Use content and metadata from the repository in other systems/webpages for better audience delivery,US0215T15,5,4,4,3,3,22,6.2
+US0215,Correct errors in uploaded metadata/documents quickly while keeping a revision record,US0215T16,5,5,5,3,4,9,7
+US0215,Receive quick response and resolution to tech support issues for minimal interruption to service,US0215T17,5,5,5,3,4,10,7
+US0215,Create custom metadata fields for specific collections and allow searching of those fields,US0215T18,5,4,5,3,3,17,6.5
+US0215,"Preserve both content and metadata in the repository for stable, long-term access",US0215T19,5,5,5,4,4,4,7.2
+US0215,Preserve law school scholarship with sustainable links to prevent link rot for a permanent digital archive,US0215T20,5,5,5,4,4,5,7.2
+US0215,"Create a collection, sometimes with custom metadata, to house digital material for wider distribution",US0215T21,5,4,5,3,3,18,6.5
+US0215,Trace the list of revisors to confirm proper procedures were followed for uploaded items,US0215T22,5,4,5,3,3,19,6.5
+US0216,"Stay up to date on research related to a given topic at Cornell, including those in other departments/schools",US0216T1,5,5,5,3,3,1,6.9
+US0216,Discover items in the repository through the library's discovery system and Google,US0216T2,5,5,5,2,3,5,6.7
+US0216,See descriptive metadata for an item whether through the repository or directly to the PDF,US0216T3,5,5,5,3,3,2,6.9
+US0216,Contact the author of a work that interests me to learn more about my research,US0216T4,4,4,5,2,3,8,5.8
+US0216,Receive updates when new works are published in a given collection or by a given author,US0216T5,5,4,5,2,3,7,6.3
+US0216,"Search within a repository or collection in an effective manner, including searching within subsets",US0216T6,5,5,5,3,3,3,6.9
+US0216,Have information that will help identify potential faculty collaborators,US0216T7,5,4,5,3,3,6,6.5
+US0216,Promote/share my work through interactive maps to display the range and extent of my work,US0216T8,5,4,5,4,4,4,6.8
+US0217,"Have a better place to collect and share project materials, with a range of organization/tagging and access options, including private, University, and public",US0217T1,5,4,5,3,3,1,6.5
+US0218,Use systems like Symplectic Elements and Activity Insight to properly track faculty scholarly output in the repositories,US0218T1,5,5,5,4,4,1,7.2
+US0218,See comprehensive tracking statistics that can be presented to faculty in a digestible way,US0218T2,5,4,5,3,3,2,6.5
+US0218,Disseminate works in a digital space that is strongly branded,US0218T3,4,3,4,3,3,4,5.3
+US0218,Have a platform that can support a variety of media file and text-based formats,US0218T4,4,4,4,4,4,3,6
+US0219,Alias (or map) an item from one collection to another,US0219T1,5,5,5,3,3,2,6.9
+US0219,"Export a set of records and associated files, manipulate this data set, and reload into the system",US0219T2,5,5,5,4,4,1,7.2
+US0219,Move a collection,US0219T3,4,4,4,3,3,3,5.7
+US0219,Rename a collection,US0219T4,4,4,4,3,3,4,5.7
+US0220,Find the works of a particular author in one easily sortable spot,US0220T1,5,4,5,3,3,1,6.5
+US0220,Access the thesis paper of an influential judge or legal thinker,US0220T2,4,4,4,3,3,2,5.7
+US0221,Find and access research and educational materials from Cornell faculty related to a particular topic,US0221T1,5,5,5,3,3,1,6.9
+US0222,"Learn who at Cornell has or is engaged in research related to a particular topic, so that I can decide if I would like to pursue studies/research at Cornell",US0222T1,5,4,5,3,3,3,6.5
+US0222,"Learn who at Cornell has or is engaged in research related to a particular topic, so that I can find an appropriate advisor, choose which courses to enroll in",US0222T2,5,5,5,3,3,1,6.9
+US0222,Upload data associated with an embargoed dissertation to meet DMP requirements for NSF DDIG,US0222T3,5,4,4,4,4,2,6.5
+US0223,"Identify timely and relevant research suitable for use in curriculum, and be notified of new research/content",US0223T1,5,5,5,3,3,1,6.9
+US0224,Make resources developed for specific projects and geographic areas available to other faculty and educators across NYS,US0224T1,5,5,5,4,4,1,7.2
+US0224,"Get periodic IR reminders, including when something needs attention or needs to move to Historical",US0224T2,4,4,4,3,3,3,5.7
+US0224,"Have easy, well-documented and supported workflows for continuity when others retire",US0224T3,5,4,5,3,3,2,6.5
+US0225,"Have a place to store a variety of documents, presentations, and data sets that automatically updates on County/Region/Project site",US0225T1,5,5,5,3,3,1,6.9
+US0226,Harvest useful metadata from the repository via OAI and continue to do so incrementally to make Cornell publications discoverable,US0226T1,5,4,4,3,2,1,6.1
+US0227,Assure that threats to copies in one repository do not automatically affect redundant copies.,US0227T1,5,4,4,4,3,5,6.4
+US0227,"Continuously monitor redundant copies for unwanted changes, and have a mechanism to restore the original object when needed.",US0227T2,5,5,5,4,4,1,7.2
+US0227,Ensure that assets can be taken out of the repository with integrity (same as when put in).,US0227T3,5,4,4,3,2,6,6.1
+US0227,Understand the intellectual value of the asset at the time of deposit for guidance on current value for the institution,US0227T4,4,3,4,3,2,9,5.2
+US0227,Have a mechanism to obtain a listing of all deposited assets and their current status.,US0227T5,4,4,4,3,2,7,5.6
+US0227,Assure that funding and staffing for the IR are committed to repository longevity via published plans/contract clauses.,US0227T6,5,4,5,3,3,4,6.5
+US0227,Assure that there is a formal plan for asset disposition if the IR ceases.,US0227T7,5,5,5,3,3,3,6.9
+US0227,Provide a mechanism to pass ownership/management of assets to a successor.,US0227T8,4,4,4,3,2,8,5.6
+US0227,Assure that digital copies are stored redundantly for recovery if one copy is destroyed or altered.,US0227T9,5,5,5,4,3,2,7.1
+US0228,Upload a new version of an item that has changed while still allowing old versions to be accessed.,US0228T1,5,5,5,4,3,1,7.1
+US0228,Have a mechanism to allow for records scheduling for items that do not need to be stored indefinitely.,US0228T2,4,4,4,3,2,3,5.6
+US0228,Upload a new version of an item that has changed while still allowing old versions to be accessed. (Duplicate),US0228T3,5,5,5,4,3,2,7.1
+US0229,Automatically validate the ingested contents for copyright infringement.,US0229T1,5,5,5,4,3,1,7.1
+US0229,Filter and rank videos based on A/V quality aspects.,US0229T2,4,4,4,3,3,4,5.7
+US0229,Annotate news video segments and extract a topic for each segment.,US0229T3,4,4,4,3,4,3,5.8
+US0229,Prefilter nudity content.,US0229T4,5,5,5,3,2,2,6.8
+US0229,Prefilter content using search based on low-level asset information.,US0229T5,4,4,4,3,3,5,5.7
+US0229,Prefilter the content using search on high-level asset information such as metadata and tags.,US0229T6,4,4,4,3,3,6,5.7
+US0229,"See a summary of articles, so that I can reuse them.",US0229T7,3,3,3,2,2,8,4.2
+US0229,Get a quick assessment of whether audio material has been edited before the upload.,US0229T8,3,3,3,3,2,7,4.4
+US0230,Search and discover music using content identification or fingerprinting.,US0230T1,5,5,5,5,5,1,7.5
+US0230,Search and discover music based on my profile.,US0230T2,5,5,5,4,4,2,7.2
+US0230,Search and discover music based on other users similar to myself.,US0230T3,4,4,4,4,3,12,5.9
+US0230,Search and discover music or ringback tones similar to a given music video based on content similarity.,US0230T4,5,4,5,4,4,6,6.8
+US0230,Search and discover music by exploiting enriched metadata and image tags.,US0230T5,5,5,5,4,4,3,7.2
+US0230,Upload tagged videos and have tags available for all further processing steps.,US0230T6,4,4,4,3,3,15,5.7
+US0230,View thumbnail sequences of video segments.,US0230T7,3,3,3,2,2,18,4.2
+US0230,Get info about similar video items and segments.,US0230T8,4,4,4,3,3,16,5.7
+US0230,Get info about perceptually similar video items and segments.,US0230T9,4,4,4,4,3,13,5.9
+US0230,Receive content recommendations from similar profiles.,US0230T10,5,5,5,4,4,4,7.2
+US0230,Receive content recommendations based on most relevant news events in my area.,US0230T11,4,4,4,4,3,14,5.9
+US0230,"Identify persons in videos, and receive related information about them.",US0230T12,4,4,4,5,5,7,6.3
+US0230,"Identify products in videos, and receive related information about them.",US0230T13,4,4,4,4,4,8,6
+US0230,"Identify broadcaster logos in videos, and receive related information about them.",US0230T14,4,4,4,4,4,9,6
+US0230,"Identify brands in videos, and receive related information about them.",US0230T15,4,4,4,4,4,10,6
+US0230,"Take a picture or upload an image, so that I am recommended with videos related to that picture or image.",US0230T16,4,4,4,4,4,11,6
+US0230,"Walk around, access content using a geographical map, and be informed if there are videos covering the area.",US0230T17,3,3,3,5,5,17,5.1
+US0230,Search content items using automatic speech recognition.,US0230T18,5,5,5,4,4,5,7.2
+US0231,"Assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.",US0231T1,5,5,5,5,5,1,7.5
+US0231,"Detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.",US0231T2,5,5,5,5,5,2,7.5
+US0231,Identify volunteer types.,US0231T3,3,4,4,3,3,33,5.2
+US0231,Preclassify the Galaxy Zoo images using simple low level image features.,US0231T4,4,4,4,3,4,26,5.8
+US0231,Automatically detect Snapshot Serengeti images with no classifiable animals in them.,US0231T5,5,4,5,4,5,21,6.9
+US0231,Perform automatic image series detection for the case of timestamping malfunction in Snapshot Serengeti images.,US0231T6,4,4,4,4,4,24,6
+US0231,Perform automatic animal species preclassification in Snapshot Serengeti.,US0231T7,5,5,5,5,5,3,7.5
+US0231,Perform automatic animal attribute preclassification in Snapshot Serengeti.,US0231T8,5,5,5,5,5,4,7.5
+US0231,Perform automatic animal number detection in Snapshot Serengeti,US0231T9,5,5,5,4,5,7,7.3
+US0231,Perform automatic segmentation or localization of plankton in Plankton Portal.,US0231T10,5,5,5,4,5,8,7.3
+US0231,Automatically detect Plankton Portal images with no classifiable plankton in them.,US0231T11,4,4,4,4,4,25,6
+US0231,Perform automatic detection of plankton size or orientation in Plankton Portal images.,US0231T12,5,5,5,4,5,9,7.3
+US0231,Perform automatic preclassification of plankton species in Plankton Portal images.,US0231T13,5,5,5,5,5,5,7.5
+US0231,Perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.,US0231T14,4,5,4,4,4,23,6.4
+US0231,Automatically detect the time in a Worm Watch Lab video where the worm lays an egg.,US0231T15,5,5,5,5,5,6,7.5
+US0231,"Detect important features such as areas of flooding, damage, temporary shelters, blocked roads in satellite images.",US0231T16,5,5,5,4,5,10,7.3
+US0231,Assess the probability/weight of a volunteers classification based on their experience.,US0231T17,4,5,5,3,4,22,6.5
+US0231,Perform prefiltering of the images to remove artifacts such as bright stars and camera read errors.,US0231T18,4,4,4,3,4,27,5.8
+US0231,Detect moving and transient objects in the images.,US0231T19,5,5,5,4,5,11,7.3
+US0231,Remove background noise and distracting sounds from the audio files.,US0231T20,5,5,5,3,4,16,7
+US0231,Group whale calls that are similar.,US0231T21,4,4,4,3,3,28,5.7
+US0231,Identify the number of whales heard in a single audio file.,US0231T22,5,5,5,3,4,17,7
+US0231,Know when to interrupt a volunteer.,US0231T23,5,5,5,4,4,12,7.2
+US0231,"Know whether to interrupt a volunteer with text, an image, or a video.",US0231T24,5,5,5,3,4,18,7
+US0231,Know when to educate a volunteer.,US0231T25,5,5,5,3,4,19,7
+US0231,"Know whether to educate a volunteer with text, an image, or a video.",US0231T26,5,5,5,3,4,20,7
+US0231,Know which piece of education to give to a volunteer,US0231T27,5,5,5,4,4,13,7.2
+US0231,Know when a volunteer has made an interesting comment on a subject.,US0231T28,4,4,4,3,3,29,5.7
+US0231,Know when Zoonibot should comment on a subject.,US0231T29,4,4,4,3,3,30,5.7
+US0231,Know when Zoonibot should give an explanation,US0231T30,4,4,4,3,3,31,5.7
+US0231,Know what Zoonibot should say to a volunteer.,US0231T31,4,4,4,3,3,32,5.7
+US0231,Group subjects by similarity.,US0231T32,5,5,5,4,4,14,7.2
+US0231,Recommend different projects to volunteers based on their previous experiences.,US0231T33,5,5,5,4,4,15,7.2
+US0232,"Show a dashboard to display information on students, teachers, and classes",US0232T1,5,4,5,3,4,1,6.6
+US0232,"Create a learning path, make the column task, and rank them",US0232T2,4,3,4,4,5,2,5.7
+US0233,Create users in the department,US0233T1,5,5,5,2,3,2,6.7
+US0233,Create classes,US0233T2,4,4,4,3,4,3,5.8
+US0233,Verify class request,US0233T3,5,5,5,3,3,1,6.9
+US0234,Create profiles,US0234T1,4,3,4,3,3,6,5.3
+US0234,Create classes,US0234T2,4,4,4,3,4,4,5.8
+US0234,Upload promo videos,US0234T3,3,2,3,2,2,9,3.8
+US0234,Create curriculum,US0234T4,5,4,5,4,5,3,6.9
+US0234,Make quiz,US0234T5,4,4,4,3,3,5,5.7
+US0234,Make the final exam,US0234T6,5,5,5,4,5,1,7.3
+US0234,Create discussion forums,US0234T7,3,2,3,3,3,8,4.1
+US0234,View quiz answers,US0234T8,3,3,3,2,2,7,4.2
+US0234,Assess final exam answers,US0234T9,5,5,5,3,4,2,7
+US0234,View ratings and reviews,US0234T10,3,2,3,2,2,10,3.8
+US0235,Register for classes,US0235T1,5,5,5,3,4,2,7
+US0235,Learn the material,US0235T2,4,4,4,3,3,3,5.7
+US0235,Take quizzes,US0235T3,4,4,4,3,3,4,5.7
+US0235,Take the final exam,US0235T4,5,5,5,4,5,1,7.3
+US0235,Provide ratings and reviews,US0235T5,1,1,1,1,1,5,1.5
+US0236,Use RFID cards to enter the Parking Area,US0236T1,3,3,3,2,3,6,4.3
+US0236,Use RFID cards for vending machines,US0236T2,2,2,2,3,2,7,3.2
+US0236,Use RFID cards for payment at the cafeteria,US0236T3,4,4,4,3,4,3,5.8
+US0236,Use RFID cards to enter the library,US0236T4,3,3,4,2,3,5,4.6
+US0236,"Use RFID cards for portable attendance devices (meetings, ceremonies)",US0236T5,4,5,5,3,4,2,6.5
+US0236,Use RFID cards to enter the room,US0236T6,5,5,5,4,5,1,7.3
+US0236,Use RFID cards for borrowing and returning a library book (dropbox),US0236T7,3,3,4,3,3,4,4.8
+US0237, Uses RFID cards for stock opname at Library,US0237T1,3,2,3,4,4,1,4.4
+US0238,Use RFID cards for guest registration,US0238T1,4,4,5,3,4,2,6.1
+US0238,Use RFID cards for tracking guests,US0238T2,5,5,5,4,5,1,7.3
+US0239,Use RFID cards for tracking assets,US0239T1,4,3,4,3,3,2,5.3
+US0239,"Use RFID cards for automation at class facilities (imager, computers, air conditioners)",US0239T2,5,4,5,4,4,1,6.8
+US0239,Process RFID card membership,US0239T3,3,2,3,3,3,3,4.1
+US0240,View the dashboard of peak hours of each application,US0240T1,4,3,4,3,3,2,5.3
+US0240, ,US0240T2,4,3,4,3,3,3,5.3
+US0240,View reports of RFID use for each user,US0240T3,4,3,4,3,3,4,5.3
+US0240,View reports of access log,US0240T4,4,4,5,3,3,1,6
+US0241,Use RFID cards for attendance in class,US0241T1,4,4,5,3,3,2,6
+US0241,Use RFID cards for attendance in the laboratory,US0241T2,4,4,5,3,3,3,6
+US0241,Use RFID cards for employee attendance,US0241T3,5,5,5,3,3,1,6.9
