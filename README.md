@@ -4,4 +4,4 @@ In Agile software development, effective task prioritization is essential for en
 
 # Note:
 
-Please read the paper in the 'paper' folder. Also, the paper has not been sent for to peer reviewed avenue.
+Please read the paper in the 'paper' folder for the details. Also, the paper has not been sent for to peer reviewed avenue.
